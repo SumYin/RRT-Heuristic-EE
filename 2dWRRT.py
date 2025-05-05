@@ -9,7 +9,7 @@ import json
 import networkx as nx
 import matplotlib as mpl
 
-maxium_iterations = 5000 
+maxium_iterations = 10000
 
 # Define utility functions
 def normalize_to_probability(heuristic_map):
@@ -121,8 +121,6 @@ class RRT:
         print(f"Iterations: {self.itterations}")
         print(f"Tree Size: {len(self.path)}")
         print(f"Path Length: {self.solution_length}")
-        
-        return [self.execution_time, self.itterations,len(self.path), self.solution_length]
 
     def graph(self, save=False, show=True):
 
@@ -266,9 +264,14 @@ if __name__ == "__main__":
     with open('scenarios.json') as f:
         scenarios = json.load(f)
 
-    # single runs for each scenario and testing
+    # Create a single timestamp for the entire set of runs
+    global_timestamp = int(time.time())
+    results = {}  # Dictionary to store all results under the same timestamp
+
+    # Single runs for each scenario and testing
     for scenario_name, scenario in scenarios.items():
-        for run in range(2):
+        scenario_results = []  # Store results for each scenario
+        for run in range(1):
             print(f"Run {run + 1} for scenario: {scenario_name}")
             start = tuple(scenario['start'])
             goal = tuple(scenario['goal'])
@@ -280,17 +283,53 @@ if __name__ == "__main__":
             # Initialize RRT and WRRT
             rrt = RRT(start, goal, goal_range, distance_unit, obstacles)
             wrrt = WRRT(start, goal, goal_range, distance_unit, obstacles, map_resolution)
+            save = True if run == 0 else False
 
             # Run RRT
             print(f"Running RRT for scenario: {scenario_name}")
             rrt.solve(interactive=False)
-            rrt.report()
-            rrt.graph(save=True, show=False)
-            
+            rrt.graph(save=save, show=False)
+            rrt_data = {
+                'algorithm': 'RRT',
+                'start': start,
+                'goal': goal,
+                'goal_range': goal_range,
+                'distance_unit': distance_unit,
+                'obstacles': obstacles,
+                'map_resolution': map_resolution,
+                'execution_time': rrt.execution_time,
+                'iterations': rrt.itterations,
+                'tree_size': len(rrt.path),
+                'path_length': rrt.solution_length
+            }
+            scenario_results.append(rrt_data)
+
             # Run WRRT
             print(f"Running WRRT for scenario: {scenario_name}")
             wrrt.solve(interactive=False)
-            wrrt.report()
-            wrrt.graph(save=True, show=False)
-        # wrrt.report_heuristic_map()
-    # 
+            wrrt.graph(save=save, show=False)
+            wrrt.report_heuristic_map()
+            wrrt_data = {
+                'algorithm': 'WRRT',
+                'start': start,
+                'goal': goal,
+                'goal_range': goal_range,
+                'distance_unit': distance_unit,
+                'obstacles': obstacles,
+                'map_resolution': map_resolution,
+                'execution_time': wrrt.execution_time,
+                'iterations': wrrt.itterations,
+                'tree_size': len(wrrt.path),
+                'path_length': wrrt.solution_length
+            }
+            scenario_results.append(wrrt_data)
+
+        # Store results for the scenario under the global timestamp
+        results[scenario_name] = scenario_results
+
+    # Save all results to a JSON file with the global timestamp
+    output_filename = f"results_{global_timestamp}.json"
+    with open(output_filename, 'w') as outfile:
+        json.dump(results, outfile, indent=4)
+
+    print(f"Results saved to {output_filename}")
