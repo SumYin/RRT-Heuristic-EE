@@ -9,6 +9,7 @@ import json
 import networkx as nx
 import matplotlib as mpl
 from scipy.spatial import KDTree
+import os
 
 maxium_iterations = 10000
 
@@ -68,12 +69,13 @@ class RRT:
         self.itterations = 0
         self.node_list = [self.start]
         self.kdtree = None
+        self.kdtree_use = False
 
     def pick_random_point(self):
         return pick_pure_random_point()
 
     def find_closest_node(self, point):
-        if len(self.node_list) > 10:  # Use KDTree only when we have enough points
+        if len(self.node_list) > 10 and self.kdtree_use:  # Use KDTree only when we have enough points
             if self.kdtree is None or len(self.node_list) > len(self.tree) * 0.8:
                 self.kdtree = KDTree(self.node_list)
             _, idx = self.kdtree.query(point)
@@ -124,16 +126,12 @@ class RRT:
             self.solution_length = self.tree[self.path[-1]][1]
 
     def solve(self, interactive=False):
-        start_time = time.time()
-        self.plan( interactive=interactive)
-        end_time = time.time()
-        self.execution_time = end_time - start_time
+        # Only track iterations; drop all time measurement
+        self.plan(interactive=interactive)
 
     def report(self):
-        print(f"Execution Time: {self.execution_time:.6f} seconds")
+        # Only print iteration count
         print(f"Iterations: {self.itterations}")
-        print(f"Tree Size: {len(self.path)}")
-        print(f"Path Length: {self.solution_length}")
 
     def graph(self, save=False, show=True):
 
@@ -216,16 +214,32 @@ class RRT:
 
 # Define WRRT class
 class WRRT(RRT):
-    def __init__(self, start, goal, goal_range, distance_unit, obstacles, map_resolution):
+    def __init__(self, start, goal, goal_range, distance_unit, obstacles, map_resolution, scenario_name=None):
         super().__init__(start, goal, goal_range, distance_unit, obstacles)
         self.map_resolution = map_resolution
-        self.heuristic_map = self.generate_heuristic_map()
+        self.heuristic_map = self.load_or_generate_heuristic_map(scenario_name)
+
+    def heuristic_map_filename(self, scenario_name):
+        if scenario_name is None:
+            return None
+        return f"heuristic_maps/{scenario_name}_heuristic_map_{self.map_resolution}.npy"
+
+    def load_or_generate_heuristic_map(self, scenario_name):
+        filename = self.heuristic_map_filename(scenario_name)
+        if filename and os.path.exists(filename):
+            return np.load(filename)
+        else:
+            heuristic_map = self.generate_heuristic_map()
+            if filename:
+                os.makedirs(os.path.dirname(filename), exist_ok=True)
+                np.save(filename, heuristic_map)
+            return heuristic_map
 
     def generate_heuristic_map(self):
-        heuristicMap = np.zeros((self.map_resolution, self.map_resolution))
-        for i in range(self.map_resolution):
-            for j in range(self.map_resolution):
-                heuristicMap[i, j] = euclidean_distance_heuristic(j/self.map_resolution, i/self.map_resolution, self.goal)
+        x = np.linspace(0, 1, self.map_resolution)
+        y = np.linspace(0, 1, self.map_resolution)
+        xx, yy = np.meshgrid(x, y)
+        heuristicMap = np.sqrt(2) - np.sqrt((xx - self.goal[0])**2 + (yy - self.goal[1])**2)
         return heuristicMap
 
     def pick_random_point(self):
@@ -246,6 +260,12 @@ class WRRT(RRT):
         super().report()
 
     def report_heuristic_map(self):
+        # Use a deterministic filename for the heuristic map image
+        img_filename = f'graphs/WRRT_heuristic_map_{self.map_resolution}_{self.start}_{self.goal}.png'
+        os.makedirs(os.path.dirname(img_filename), exist_ok=True)
+        if os.path.exists(img_filename):
+            return  # Don't save again if it already exists
+
         plt.figure(figsize=(16, 16))
         plt.imshow(self.heuristic_map, cmap='magma', interpolation='nearest', extent=[0, 1, 0, 1], origin='lower')
         
@@ -267,9 +287,7 @@ class WRRT(RRT):
         plt.legend(fontsize=12)
 
         # Save and close the plot
-        timestamp = int(time.time())
-        # plt.show()
-        plt.savefig(f'graphs/WRRT_heuristic_map_{timestamp}.png', dpi=300, bbox_inches='tight')
+        plt.savefig(img_filename, dpi=300, bbox_inches='tight')
         plt.close()
 
 # Main execution
@@ -277,15 +295,21 @@ if __name__ == "__main__":
     with open('scenarios.json') as f:
         scenarios = json.load(f)
 
-    # Create a single timestamp for the entire set of runs
     global_timestamp = int(time.time())
-    results = {}  # Dictionary to store all results under the same timestamp
+    output_filename = f"results_{global_timestamp}.json"
+    results = []
 
-    # Single runs for each scenario and testing
+    # Try to load existing results if file exists (for crash recovery)
+    if os.path.exists(output_filename):
+        with open(output_filename, 'r') as infile:
+            try:
+                results = json.load(infile)
+            except Exception:
+                results = []
+
     for scenario_name, scenario in scenarios.items():
-        scenario_results = []  # Store results for each scenario
-        for run in range(10):
-            print(f"Run {run + 1} for scenario: {scenario_name}")
+        print(f"Running scenario: {scenario_name}")
+        for run in range(1000):
             start = tuple(scenario['start'])
             goal = tuple(scenario['goal'])
             map_resolution = scenario['mapResolution']
@@ -295,54 +319,37 @@ if __name__ == "__main__":
 
             # Initialize RRT and WRRT
             rrt = RRT(start, goal, goal_range, distance_unit, obstacles)
-            wrrt = WRRT(start, goal, goal_range, distance_unit, obstacles, map_resolution)
+            wrrt = WRRT(start, goal, goal_range, distance_unit, obstacles, map_resolution, scenario_name=scenario_name)
             save = True if run == 0 else False
 
+            timestamp = int(time.time() * 1000)
+
             # Run RRT
-            print(f"Running RRT for scenario: {scenario_name}")
             rrt.solve(interactive=False)
             rrt.graph(save=save, show=False)
             rrt_data = {
+                'id': timestamp,
+                'scenario': scenario_name,
                 'algorithm': 'RRT',
-                'start': start,
-                'goal': goal,
-                'goal_range': goal_range,
-                'distance_unit': distance_unit,
-                'obstacles': obstacles,
-                'map_resolution': map_resolution,
-                'execution_time': rrt.execution_time,
                 'iterations': rrt.itterations,
                 'tree_size': len(rrt.path),
                 'path_length': rrt.solution_length
             }
-            scenario_results.append(rrt_data)
+            results.append(rrt_data)
 
             # Run WRRT
-            print(f"Running WRRT for scenario: {scenario_name}")
             wrrt.solve(interactive=False)
             wrrt.graph(save=save, show=False)
-            wrrt.report_heuristic_map()
             wrrt_data = {
+                'id': timestamp + 1,
+                'scenario': scenario_name,
                 'algorithm': 'WRRT',
-                'start': start,
-                'goal': goal,
-                'goal_range': goal_range,
-                'distance_unit': distance_unit,
-                'obstacles': obstacles,
-                'map_resolution': map_resolution,
-                'execution_time': wrrt.execution_time,
                 'iterations': wrrt.itterations,
                 'tree_size': len(wrrt.path),
                 'path_length': wrrt.solution_length
             }
-            scenario_results.append(wrrt_data)
+            results.append(wrrt_data)
 
-        # Store results for the scenario under the global timestamp
-        results[scenario_name] = scenario_results
-
-    # Save all results to a JSON file with the global timestamp
-    output_filename = f"results_{global_timestamp}.json"
-    with open(output_filename, 'w') as outfile:
-        json.dump(results, outfile, indent=4)
-
-        print(f"Results saved to {output_filename}")
+            # Save results after each run
+            with open(output_filename, 'w') as outfile:
+                json.dump(results, outfile, indent=2)
