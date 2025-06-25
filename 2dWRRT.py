@@ -8,6 +8,7 @@ import time
 import json
 import networkx as nx
 import matplotlib as mpl
+from scipy.spatial import KDTree
 
 maxium_iterations = 10000
 
@@ -65,9 +66,20 @@ class RRT:
         self.path = [start]
         self.solution_length = 0
         self.itterations = 0
+        self.node_list = [self.start]
+        self.kdtree = None
 
     def pick_random_point(self):
         return pick_pure_random_point()
+
+    def find_closest_node(self, point):
+        if len(self.node_list) > 10:  # Use KDTree only when we have enough points
+            if self.kdtree is None or len(self.node_list) > len(self.tree) * 0.8:
+                self.kdtree = KDTree(self.node_list)
+            _, idx = self.kdtree.query(point)
+            return self.node_list[idx]
+        else:
+            return min(self.tree.keys(), key=lambda node: np.linalg.norm(np.array(point) - np.array(node)))
 
     def plan(self, interactive=False):
         if interactive:
@@ -88,14 +100,15 @@ class RRT:
         while np.linalg.norm(np.array(self.path[-1]) - np.array(self.goal)) > self.goal_range and self.itterations < maxium_iterations:
             self.itterations += 1
             new_point = self.pick_random_point()
-            # Find the closest node from all nodes in the tree
-            closest_node = min(self.tree.keys(), key=lambda node: np.linalg.norm(np.array(new_point) - np.array(node)))
+            # Find the closest node using KDTree or brute force
+            closest_node = self.find_closest_node(new_point)
             direction = np.array(new_point) - np.array(closest_node)
             direction = direction / np.linalg.norm(direction)
             new_point = tuple(np.array(closest_node) + direction * self.distance_unit)
             if is_legal_move(closest_node, new_point, self.obstacles):
                 self.path.append(new_point)
                 self.tree[new_point] = (closest_node, self.tree[closest_node][1] + 1)
+                self.node_list.append(new_point)
                 if interactive:
                     ax.plot([closest_node[0], new_point[0]], [closest_node[1], new_point[1]], 'b-', linewidth=0.5)
         
@@ -271,7 +284,7 @@ if __name__ == "__main__":
     # Single runs for each scenario and testing
     for scenario_name, scenario in scenarios.items():
         scenario_results = []  # Store results for each scenario
-        for run in range(1):
+        for run in range(10):
             print(f"Run {run + 1} for scenario: {scenario_name}")
             start = tuple(scenario['start'])
             goal = tuple(scenario['goal'])
@@ -332,4 +345,4 @@ if __name__ == "__main__":
     with open(output_filename, 'w') as outfile:
         json.dump(results, outfile, indent=4)
 
-    print(f"Results saved to {output_filename}")
+        print(f"Results saved to {output_filename}")
