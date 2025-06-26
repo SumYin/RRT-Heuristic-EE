@@ -164,3 +164,6 @@ cython_debug/
 results_*
 .DS_Store
 .DS_Store
+graphs_*
+/heuristic_maps
+avg_*

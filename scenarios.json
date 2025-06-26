@@ -13,6 +13,20 @@
         "distanceUnit": 0.05,
         "obstacles": []
     },
+    "very_close": {
+        "start": [
+            0,
+            0
+        ],
+        "goal": [
+            0.2,
+            0.2
+        ],
+        "mapResolution": 16,
+        "goalRange": 0.05,
+        "distanceUnit": 0.05,
+        "obstacles": []
+    },
     "single_wall": {
         "start": [
             0.1,
