@@ -2,6 +2,7 @@ import subprocess
 import os
 import json
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from tqdm import tqdm  # Added tqdm import
 
 SCENARIOS_FILE = "scenarios.json"
 RUNS_PER_SCENARIO = 10_000
@@ -12,7 +13,7 @@ def run_chunk(scenario_name, chunk_start, chunk_end):
     venv_python = os.path.join(os.getcwd(), ".venv", "Scripts", "python.exe")
     output_file = f"results_{scenario_name}_{chunk_start}_{chunk_end}.json"
     cmd = [
-        venv_python, "2dWRRT_CUDA.py",  # Use CUDA-accelerated version
+        venv_python, "2dWRRT.py",  # Use CUDA-accelerated version
         "--scenario", scenario_name,
         "--start", str(chunk_start),
         "--end", str(chunk_end),
@@ -52,12 +53,14 @@ def main():
     # Run in parallel
     with ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
         futures = [executor.submit(run_chunk, *job) for job in jobs]
-        for future in as_completed(futures):
-            try:
-                output_file = future.result()
-                print(f"Completed: {output_file}")
-            except Exception as e:
-                print(f"Error: {e}")
+        with tqdm(total=len(futures), desc="Jobs completed") as pbar:
+            for future in as_completed(futures):
+                try:
+                    output_file = future.result()
+                    print(f"Completed: {output_file}")
+                except Exception as e:
+                    print(f"Error: {e}")
+                pbar.update(1)
 
 if __name__ == "__main__":
     main()

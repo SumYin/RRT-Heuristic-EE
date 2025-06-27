@@ -5,10 +5,18 @@ import matplotlib.pyplot as plt
 import numpy as np
 from collections import defaultdict
 
-# read results file
-with open('results_1750894647.json') as f:
-    results = json.load(f)
-
+# read results from all JSON files in the "Results 100k" directory
+results_dir = './Results 100k'
+results = []
+for filename in os.listdir(results_dir):
+    if filename.endswith('.json'):
+        filepath = os.path.join(results_dir, filename)
+        with open(filepath, 'r') as f:
+            try:
+                data = json.load(f)
+                results.extend(data)  # assuming each file contains a list of results
+            except json.JSONDecodeError as e:
+                print(f"Error reading {filename}: {e}")
 # Data structures to aggregate results
 stats = defaultdict(lambda: defaultdict(list))  # stats[scenario][algorithm] = list of runs
 

@@ -167,3 +167,4 @@ cython_debug/
 graphs_*
 /heuristic_maps
 avg_*
+/ignore
