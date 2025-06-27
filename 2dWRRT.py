@@ -318,7 +318,7 @@ if __name__ == "__main__":
 
     for scenario_name, scenario in scenarios.items():
         print(f"Running scenario: {scenario_name}")
-        for run in range(args.start, args.end):
+        for run in tqdm(range(args.start, args.end), desc=f"Runs for {scenario_name}"):
             start = tuple(scenario['start'])
             goal = tuple(scenario['goal'])
             map_resolution = scenario['mapResolution']
