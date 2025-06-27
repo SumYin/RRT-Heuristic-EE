@@ -161,7 +161,7 @@ cython_debug/
 
 /graphs
 /development
-results_*
+./results_*
 .DS_Store
 .DS_Store
 graphs_*

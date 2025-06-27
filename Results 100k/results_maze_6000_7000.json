@@ -1,0 +1,8242 @@
+[
+  {
+    "id": 1750965752400,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2270,
+    "tree_size": 1196,
+    "path_length": 86
+  },
+  {
+    "id": 1750965752401,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1738,
+    "tree_size": 856,
+    "path_length": 76
+  },
+  {
+    "id": 1750965761514,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2479,
+    "tree_size": 1361,
+    "path_length": 81
+  },
+  {
+    "id": 1750965761515,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2228,
+    "tree_size": 944,
+    "path_length": 78
+  },
+  {
+    "id": 1750965772718,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3071,
+    "tree_size": 1567,
+    "path_length": 85
+  },
+  {
+    "id": 1750965772719,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2042,
+    "tree_size": 831,
+    "path_length": 85
+  },
+  {
+    "id": 1750965785597,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2974,
+    "tree_size": 1491,
+    "path_length": 92
+  },
+  {
+    "id": 1750965785598,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2210,
+    "tree_size": 903,
+    "path_length": 78
+  },
+  {
+    "id": 1750965798528,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2364,
+    "tree_size": 1222,
+    "path_length": 84
+  },
+  {
+    "id": 1750965798529,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1885,
+    "tree_size": 732,
+    "path_length": 83
+  },
+  {
+    "id": 1750965807183,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2585,
+    "tree_size": 1387,
+    "path_length": 79
+  },
+  {
+    "id": 1750965807184,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2022,
+    "tree_size": 932,
+    "path_length": 78
+  },
+  {
+    "id": 1750965818710,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2544,
+    "tree_size": 1417,
+    "path_length": 78
+  },
+  {
+    "id": 1750965818711,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2653,
+    "tree_size": 1108,
+    "path_length": 81
+  },
+  {
+    "id": 1750965832151,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2621,
+    "tree_size": 1432,
+    "path_length": 89
+  },
+  {
+    "id": 1750965832152,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2303,
+    "tree_size": 1016,
+    "path_length": 79
+  },
+  {
+    "id": 1750965844740,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2137,
+    "tree_size": 1140,
+    "path_length": 86
+  },
+  {
+    "id": 1750965844741,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2304,
+    "tree_size": 1131,
+    "path_length": 86
+  },
+  {
+    "id": 1750965855185,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3150,
+    "tree_size": 1614,
+    "path_length": 85
+  },
+  {
+    "id": 1750965855186,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1736,
+    "tree_size": 708,
+    "path_length": 83
+  },
+  {
+    "id": 1750965868323,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2417,
+    "tree_size": 1319,
+    "path_length": 81
+  },
+  {
+    "id": 1750965868324,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2541,
+    "tree_size": 965,
+    "path_length": 88
+  },
+  {
+    "id": 1750965880004,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2539,
+    "tree_size": 1520,
+    "path_length": 83
+  },
+  {
+    "id": 1750965880005,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2388,
+    "tree_size": 993,
+    "path_length": 85
+  },
+  {
+    "id": 1750965893030,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3103,
+    "tree_size": 1737,
+    "path_length": 83
+  },
+  {
+    "id": 1750965893031,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1523,
+    "tree_size": 657,
+    "path_length": 76
+  },
+  {
+    "id": 1750965906626,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2217,
+    "tree_size": 1245,
+    "path_length": 78
+  },
+  {
+    "id": 1750965906627,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2159,
+    "tree_size": 946,
+    "path_length": 80
+  },
+  {
+    "id": 1750965917020,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2776,
+    "tree_size": 1546,
+    "path_length": 78
+  },
+  {
+    "id": 1750965917021,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2053,
+    "tree_size": 875,
+    "path_length": 84
+  },
+  {
+    "id": 1750965929698,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2590,
+    "tree_size": 1480,
+    "path_length": 86
+  },
+  {
+    "id": 1750965929699,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2290,
+    "tree_size": 915,
+    "path_length": 84
+  },
+  {
+    "id": 1750965942410,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1852,
+    "tree_size": 960,
+    "path_length": 83
+  },
+  {
+    "id": 1750965942411,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1214,
+    "tree_size": 608,
+    "path_length": 77
+  },
+  {
+    "id": 1750965947970,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2195,
+    "tree_size": 1163,
+    "path_length": 80
+  },
+  {
+    "id": 1750965947971,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1524,
+    "tree_size": 652,
+    "path_length": 86
+  },
+  {
+    "id": 1750965955440,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2919,
+    "tree_size": 1462,
+    "path_length": 92
+  },
+  {
+    "id": 1750965955441,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1636,
+    "tree_size": 688,
+    "path_length": 74
+  },
+  {
+    "id": 1750965966708,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2942,
+    "tree_size": 1559,
+    "path_length": 77
+  },
+  {
+    "id": 1750965966709,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2320,
+    "tree_size": 1052,
+    "path_length": 87
+  },
+  {
+    "id": 1750965981159,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2098,
+    "tree_size": 1140,
+    "path_length": 85
+  },
+  {
+    "id": 1750965981160,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2321,
+    "tree_size": 927,
+    "path_length": 83
+  },
+  {
+    "id": 1750965991001,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3190,
+    "tree_size": 1685,
+    "path_length": 79
+  },
+  {
+    "id": 1750965991002,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2345,
+    "tree_size": 931,
+    "path_length": 85
+  },
+  {
+    "id": 1750966006331,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2551,
+    "tree_size": 1405,
+    "path_length": 82
+  },
+  {
+    "id": 1750966006332,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1976,
+    "tree_size": 930,
+    "path_length": 84
+  },
+  {
+    "id": 1750966018096,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2886,
+    "tree_size": 1525,
+    "path_length": 82
+  },
+  {
+    "id": 1750966018097,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2046,
+    "tree_size": 891,
+    "path_length": 78
+  },
+  {
+    "id": 1750966030952,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3346,
+    "tree_size": 1816,
+    "path_length": 89
+  },
+  {
+    "id": 1750966030953,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2331,
+    "tree_size": 1033,
+    "path_length": 82
+  },
+  {
+    "id": 1750966049126,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2672,
+    "tree_size": 1457,
+    "path_length": 79
+  },
+  {
+    "id": 1750966049127,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2200,
+    "tree_size": 835,
+    "path_length": 80
+  },
+  {
+    "id": 1750966060906,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2248,
+    "tree_size": 1182,
+    "path_length": 80
+  },
+  {
+    "id": 1750966060907,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2047,
+    "tree_size": 908,
+    "path_length": 77
+  },
+  {
+    "id": 1750966070306,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3084,
+    "tree_size": 1647,
+    "path_length": 79
+  },
+  {
+    "id": 1750966070307,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1926,
+    "tree_size": 900,
+    "path_length": 77
+  },
+  {
+    "id": 1750966084560,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3079,
+    "tree_size": 1496,
+    "path_length": 81
+  },
+  {
+    "id": 1750966084561,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2260,
+    "tree_size": 1057,
+    "path_length": 76
+  },
+  {
+    "id": 1750966098943,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1995,
+    "tree_size": 1030,
+    "path_length": 82
+  },
+  {
+    "id": 1750966098944,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2228,
+    "tree_size": 1040,
+    "path_length": 85
+  },
+  {
+    "id": 1750966107839,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2807,
+    "tree_size": 1458,
+    "path_length": 79
+  },
+  {
+    "id": 1750966107840,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2196,
+    "tree_size": 945,
+    "path_length": 86
+  },
+  {
+    "id": 1750966120289,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2787,
+    "tree_size": 1367,
+    "path_length": 82
+  },
+  {
+    "id": 1750966120290,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2059,
+    "tree_size": 831,
+    "path_length": 85
+  },
+  {
+    "id": 1750966131496,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2882,
+    "tree_size": 1561,
+    "path_length": 88
+  },
+  {
+    "id": 1750966131497,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2475,
+    "tree_size": 1118,
+    "path_length": 83
+  },
+  {
+    "id": 1750966146373,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2192,
+    "tree_size": 1107,
+    "path_length": 83
+  },
+  {
+    "id": 1750966146374,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1652,
+    "tree_size": 678,
+    "path_length": 77
+  },
+  {
+    "id": 1750966153714,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2590,
+    "tree_size": 1185,
+    "path_length": 88
+  },
+  {
+    "id": 1750966153715,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2769,
+    "tree_size": 1322,
+    "path_length": 87
+  },
+  {
+    "id": 1750966167411,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2099,
+    "tree_size": 1105,
+    "path_length": 83
+  },
+  {
+    "id": 1750966167412,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2510,
+    "tree_size": 921,
+    "path_length": 87
+  },
+  {
+    "id": 1750966176609,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2408,
+    "tree_size": 1348,
+    "path_length": 91
+  },
+  {
+    "id": 1750966176610,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2315,
+    "tree_size": 915,
+    "path_length": 84
+  },
+  {
+    "id": 1750966187646,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2685,
+    "tree_size": 1474,
+    "path_length": 79
+  },
+  {
+    "id": 1750966187647,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2128,
+    "tree_size": 975,
+    "path_length": 76
+  },
+  {
+    "id": 1750966200605,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3340,
+    "tree_size": 1800,
+    "path_length": 87
+  },
+  {
+    "id": 1750966200606,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2467,
+    "tree_size": 985,
+    "path_length": 83
+  },
+  {
+    "id": 1750966217613,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2781,
+    "tree_size": 1489,
+    "path_length": 85
+  },
+  {
+    "id": 1750966217614,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2554,
+    "tree_size": 1160,
+    "path_length": 90
+  },
+  {
+    "id": 1750966232046,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2293,
+    "tree_size": 1185,
+    "path_length": 85
+  },
+  {
+    "id": 1750966232047,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2058,
+    "tree_size": 988,
+    "path_length": 86
+  },
+  {
+    "id": 1750966242024,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2676,
+    "tree_size": 1434,
+    "path_length": 87
+  },
+  {
+    "id": 1750966242025,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1601,
+    "tree_size": 723,
+    "path_length": 77
+  },
+  {
+    "id": 1750966252740,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2450,
+    "tree_size": 1288,
+    "path_length": 77
+  },
+  {
+    "id": 1750966252741,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1864,
+    "tree_size": 828,
+    "path_length": 76
+  },
+  {
+    "id": 1750966262990,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2608,
+    "tree_size": 1278,
+    "path_length": 82
+  },
+  {
+    "id": 1750966262991,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1889,
+    "tree_size": 758,
+    "path_length": 87
+  },
+  {
+    "id": 1750966272899,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3096,
+    "tree_size": 1660,
+    "path_length": 89
+  },
+  {
+    "id": 1750966272900,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2136,
+    "tree_size": 780,
+    "path_length": 80
+  },
+  {
+    "id": 1750966286830,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2292,
+    "tree_size": 1302,
+    "path_length": 80
+  },
+  {
+    "id": 1750966286831,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2307,
+    "tree_size": 1019,
+    "path_length": 79
+  },
+  {
+    "id": 1750966298099,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2179,
+    "tree_size": 1115,
+    "path_length": 77
+  },
+  {
+    "id": 1750966298100,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1580,
+    "tree_size": 792,
+    "path_length": 76
+  },
+  {
+    "id": 1750966306112,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2379,
+    "tree_size": 1312,
+    "path_length": 76
+  },
+  {
+    "id": 1750966306113,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2173,
+    "tree_size": 1056,
+    "path_length": 82
+  },
+  {
+    "id": 1750966317518,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2071,
+    "tree_size": 1046,
+    "path_length": 89
+  },
+  {
+    "id": 1750966317519,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2001,
+    "tree_size": 789,
+    "path_length": 87
+  },
+  {
+    "id": 1750966325499,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2280,
+    "tree_size": 1291,
+    "path_length": 81
+  },
+  {
+    "id": 1750966325500,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1899,
+    "tree_size": 726,
+    "path_length": 86
+  },
+  {
+    "id": 1750966334720,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1942,
+    "tree_size": 935,
+    "path_length": 73
+  },
+  {
+    "id": 1750966334721,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2181,
+    "tree_size": 972,
+    "path_length": 82
+  },
+  {
+    "id": 1750966343090,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3036,
+    "tree_size": 1615,
+    "path_length": 90
+  },
+  {
+    "id": 1750966343091,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2439,
+    "tree_size": 1049,
+    "path_length": 84
+  },
+  {
+    "id": 1750966358816,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2450,
+    "tree_size": 1425,
+    "path_length": 85
+  },
+  {
+    "id": 1750966358817,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1881,
+    "tree_size": 853,
+    "path_length": 77
+  },
+  {
+    "id": 1750966369702,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2552,
+    "tree_size": 1422,
+    "path_length": 84
+  },
+  {
+    "id": 1750966369703,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2116,
+    "tree_size": 947,
+    "path_length": 84
+  },
+  {
+    "id": 1750966381169,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2567,
+    "tree_size": 1245,
+    "path_length": 77
+  },
+  {
+    "id": 1750966381170,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1987,
+    "tree_size": 827,
+    "path_length": 78
+  },
+  {
+    "id": 1750966391263,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2613,
+    "tree_size": 1473,
+    "path_length": 83
+  },
+  {
+    "id": 1750966391264,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1639,
+    "tree_size": 741,
+    "path_length": 81
+  },
+  {
+    "id": 1750966402228,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2738,
+    "tree_size": 1620,
+    "path_length": 79
+  },
+  {
+    "id": 1750966402229,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1948,
+    "tree_size": 849,
+    "path_length": 81
+  },
+  {
+    "id": 1750966415144,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2167,
+    "tree_size": 1145,
+    "path_length": 83
+  },
+  {
+    "id": 1750966415145,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2071,
+    "tree_size": 835,
+    "path_length": 78
+  },
+  {
+    "id": 1750966424134,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2583,
+    "tree_size": 1395,
+    "path_length": 91
+  },
+  {
+    "id": 1750966424135,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1991,
+    "tree_size": 886,
+    "path_length": 82
+  },
+  {
+    "id": 1750966435170,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2977,
+    "tree_size": 1537,
+    "path_length": 86
+  },
+  {
+    "id": 1750966435171,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2071,
+    "tree_size": 848,
+    "path_length": 91
+  },
+  {
+    "id": 1750966448144,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2734,
+    "tree_size": 1518,
+    "path_length": 81
+  },
+  {
+    "id": 1750966448145,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2019,
+    "tree_size": 702,
+    "path_length": 76
+  },
+  {
+    "id": 1750966459608,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3086,
+    "tree_size": 1703,
+    "path_length": 97
+  },
+  {
+    "id": 1750966459609,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1839,
+    "tree_size": 843,
+    "path_length": 81
+  },
+  {
+    "id": 1750966473927,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2579,
+    "tree_size": 1347,
+    "path_length": 81
+  },
+  {
+    "id": 1750966473928,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2063,
+    "tree_size": 876,
+    "path_length": 85
+  },
+  {
+    "id": 1750966484552,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2034,
+    "tree_size": 1148,
+    "path_length": 81
+  },
+  {
+    "id": 1750966484553,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2352,
+    "tree_size": 1002,
+    "path_length": 82
+  },
+  {
+    "id": 1750966494417,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2468,
+    "tree_size": 1330,
+    "path_length": 84
+  },
+  {
+    "id": 1750966494418,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2349,
+    "tree_size": 1005,
+    "path_length": 86
+  },
+  {
+    "id": 1750966505832,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2396,
+    "tree_size": 1317,
+    "path_length": 86
+  },
+  {
+    "id": 1750966505833,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2324,
+    "tree_size": 818,
+    "path_length": 85
+  },
+  {
+    "id": 1750966515812,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2205,
+    "tree_size": 1167,
+    "path_length": 81
+  },
+  {
+    "id": 1750966515813,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1398,
+    "tree_size": 610,
+    "path_length": 81
+  },
+  {
+    "id": 1750966523217,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2653,
+    "tree_size": 1352,
+    "path_length": 80
+  },
+  {
+    "id": 1750966523218,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1575,
+    "tree_size": 746,
+    "path_length": 74
+  },
+  {
+    "id": 1750966533084,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2640,
+    "tree_size": 1311,
+    "path_length": 84
+  },
+  {
+    "id": 1750966533085,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1990,
+    "tree_size": 847,
+    "path_length": 79
+  },
+  {
+    "id": 1750966543651,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2324,
+    "tree_size": 1334,
+    "path_length": 83
+  },
+  {
+    "id": 1750966543652,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2182,
+    "tree_size": 1009,
+    "path_length": 78
+  },
+  {
+    "id": 1750966555221,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2066,
+    "tree_size": 1074,
+    "path_length": 79
+  },
+  {
+    "id": 1750966555222,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2207,
+    "tree_size": 786,
+    "path_length": 79
+  },
+  {
+    "id": 1750966563322,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2658,
+    "tree_size": 1382,
+    "path_length": 87
+  },
+  {
+    "id": 1750966563323,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1738,
+    "tree_size": 751,
+    "path_length": 82
+  },
+  {
+    "id": 1750966573729,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2507,
+    "tree_size": 1402,
+    "path_length": 80
+  },
+  {
+    "id": 1750966573730,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2185,
+    "tree_size": 944,
+    "path_length": 78
+  },
+  {
+    "id": 1750966584962,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2392,
+    "tree_size": 1265,
+    "path_length": 85
+  },
+  {
+    "id": 1750966584963,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2044,
+    "tree_size": 784,
+    "path_length": 87
+  },
+  {
+    "id": 1750966594821,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2347,
+    "tree_size": 1157,
+    "path_length": 83
+  },
+  {
+    "id": 1750966594822,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1846,
+    "tree_size": 883,
+    "path_length": 81
+  },
+  {
+    "id": 1750966603882,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2350,
+    "tree_size": 1411,
+    "path_length": 81
+  },
+  {
+    "id": 1750966603883,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2176,
+    "tree_size": 904,
+    "path_length": 85
+  },
+  {
+    "id": 1750966614981,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3199,
+    "tree_size": 1804,
+    "path_length": 88
+  },
+  {
+    "id": 1750966614982,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2462,
+    "tree_size": 941,
+    "path_length": 81
+  },
+  {
+    "id": 1750966631514,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2826,
+    "tree_size": 1336,
+    "path_length": 80
+  },
+  {
+    "id": 1750966631515,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2075,
+    "tree_size": 898,
+    "path_length": 87
+  },
+  {
+    "id": 1750966642839,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2897,
+    "tree_size": 1744,
+    "path_length": 81
+  },
+  {
+    "id": 1750966642840,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1396,
+    "tree_size": 712,
+    "path_length": 81
+  },
+  {
+    "id": 1750966655765,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2631,
+    "tree_size": 1398,
+    "path_length": 85
+  },
+  {
+    "id": 1750966655766,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1689,
+    "tree_size": 704,
+    "path_length": 76
+  },
+  {
+    "id": 1750966665479,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2354,
+    "tree_size": 1203,
+    "path_length": 81
+  },
+  {
+    "id": 1750966665480,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1700,
+    "tree_size": 717,
+    "path_length": 78
+  },
+  {
+    "id": 1750966673890,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1944,
+    "tree_size": 1186,
+    "path_length": 78
+  },
+  {
+    "id": 1750966673891,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2465,
+    "tree_size": 1187,
+    "path_length": 92
+  },
+  {
+    "id": 1750966685247,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3319,
+    "tree_size": 1846,
+    "path_length": 84
+  },
+  {
+    "id": 1750966685248,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2771,
+    "tree_size": 1249,
+    "path_length": 85
+  },
+  {
+    "id": 1750966704924,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2289,
+    "tree_size": 1233,
+    "path_length": 75
+  },
+  {
+    "id": 1750966704925,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2601,
+    "tree_size": 1148,
+    "path_length": 84
+  },
+  {
+    "id": 1750966717284,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3076,
+    "tree_size": 1493,
+    "path_length": 79
+  },
+  {
+    "id": 1750966717285,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1641,
+    "tree_size": 870,
+    "path_length": 81
+  },
+  {
+    "id": 1750966729706,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2477,
+    "tree_size": 1390,
+    "path_length": 74
+  },
+  {
+    "id": 1750966729707,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1800,
+    "tree_size": 775,
+    "path_length": 77
+  },
+  {
+    "id": 1750966739843,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2346,
+    "tree_size": 1283,
+    "path_length": 82
+  },
+  {
+    "id": 1750966739844,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2021,
+    "tree_size": 868,
+    "path_length": 79
+  },
+  {
+    "id": 1750966750117,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2875,
+    "tree_size": 1517,
+    "path_length": 84
+  },
+  {
+    "id": 1750966750118,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2342,
+    "tree_size": 898,
+    "path_length": 75
+  },
+  {
+    "id": 1750966763160,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2586,
+    "tree_size": 1510,
+    "path_length": 79
+  },
+  {
+    "id": 1750966763161,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2791,
+    "tree_size": 1305,
+    "path_length": 85
+  },
+  {
+    "id": 1750966778671,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2395,
+    "tree_size": 1365,
+    "path_length": 78
+  },
+  {
+    "id": 1750966778672,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2282,
+    "tree_size": 1077,
+    "path_length": 87
+  },
+  {
+    "id": 1750966791014,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2645,
+    "tree_size": 1309,
+    "path_length": 82
+  },
+  {
+    "id": 1750966791015,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2548,
+    "tree_size": 1061,
+    "path_length": 83
+  },
+  {
+    "id": 1750966803219,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2930,
+    "tree_size": 1544,
+    "path_length": 80
+  },
+  {
+    "id": 1750966803220,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1643,
+    "tree_size": 678,
+    "path_length": 75
+  },
+  {
+    "id": 1750966814248,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2559,
+    "tree_size": 1518,
+    "path_length": 81
+  },
+  {
+    "id": 1750966814249,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1692,
+    "tree_size": 751,
+    "path_length": 76
+  },
+  {
+    "id": 1750966825454,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2175,
+    "tree_size": 1284,
+    "path_length": 90
+  },
+  {
+    "id": 1750966825455,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2145,
+    "tree_size": 974,
+    "path_length": 83
+  },
+  {
+    "id": 1750966835733,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2904,
+    "tree_size": 1648,
+    "path_length": 79
+  },
+  {
+    "id": 1750966835734,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1687,
+    "tree_size": 705,
+    "path_length": 73
+  },
+  {
+    "id": 1750966847840,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1983,
+    "tree_size": 1154,
+    "path_length": 77
+  },
+  {
+    "id": 1750966847841,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2951,
+    "tree_size": 1372,
+    "path_length": 88
+  },
+  {
+    "id": 1750966860868,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1751,
+    "tree_size": 1017,
+    "path_length": 73
+  },
+  {
+    "id": 1750966860869,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2142,
+    "tree_size": 1051,
+    "path_length": 78
+  },
+  {
+    "id": 1750966869417,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1956,
+    "tree_size": 1029,
+    "path_length": 79
+  },
+  {
+    "id": 1750966869418,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2600,
+    "tree_size": 1019,
+    "path_length": 88
+  },
+  {
+    "id": 1750966878438,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2162,
+    "tree_size": 1098,
+    "path_length": 80
+  },
+  {
+    "id": 1750966878439,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1891,
+    "tree_size": 807,
+    "path_length": 80
+  },
+  {
+    "id": 1750966886607,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3600,
+    "tree_size": 1884,
+    "path_length": 77
+  },
+  {
+    "id": 1750966886608,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1933,
+    "tree_size": 885,
+    "path_length": 78
+  },
+  {
+    "id": 1750966903768,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1918,
+    "tree_size": 975,
+    "path_length": 80
+  },
+  {
+    "id": 1750966903769,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2455,
+    "tree_size": 975,
+    "path_length": 87
+  },
+  {
+    "id": 1750966911915,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2716,
+    "tree_size": 1477,
+    "path_length": 89
+  },
+  {
+    "id": 1750966911916,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1819,
+    "tree_size": 781,
+    "path_length": 82
+  },
+  {
+    "id": 1750966923071,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2231,
+    "tree_size": 1154,
+    "path_length": 77
+  },
+  {
+    "id": 1750966923072,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2518,
+    "tree_size": 1139,
+    "path_length": 78
+  },
+  {
+    "id": 1750966933916,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3044,
+    "tree_size": 1722,
+    "path_length": 82
+  },
+  {
+    "id": 1750966933917,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2217,
+    "tree_size": 926,
+    "path_length": 84
+  },
+  {
+    "id": 1750966948424,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2800,
+    "tree_size": 1405,
+    "path_length": 86
+  },
+  {
+    "id": 1750966948425,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2139,
+    "tree_size": 919,
+    "path_length": 80
+  },
+  {
+    "id": 1750966960174,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2481,
+    "tree_size": 1304,
+    "path_length": 87
+  },
+  {
+    "id": 1750966960175,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2164,
+    "tree_size": 985,
+    "path_length": 84
+  },
+  {
+    "id": 1750966971047,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3118,
+    "tree_size": 1661,
+    "path_length": 95
+  },
+  {
+    "id": 1750966971048,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1966,
+    "tree_size": 802,
+    "path_length": 80
+  },
+  {
+    "id": 1750966984368,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2388,
+    "tree_size": 1265,
+    "path_length": 83
+  },
+  {
+    "id": 1750966984369,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1569,
+    "tree_size": 746,
+    "path_length": 83
+  },
+  {
+    "id": 1750966993396,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2825,
+    "tree_size": 1610,
+    "path_length": 89
+  },
+  {
+    "id": 1750966993397,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2041,
+    "tree_size": 954,
+    "path_length": 84
+  },
+  {
+    "id": 1750967007047,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2524,
+    "tree_size": 1308,
+    "path_length": 81
+  },
+  {
+    "id": 1750967007048,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1834,
+    "tree_size": 834,
+    "path_length": 84
+  },
+  {
+    "id": 1750967016750,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2509,
+    "tree_size": 1410,
+    "path_length": 80
+  },
+  {
+    "id": 1750967016751,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1859,
+    "tree_size": 782,
+    "path_length": 80
+  },
+  {
+    "id": 1750967027206,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2398,
+    "tree_size": 1271,
+    "path_length": 81
+  },
+  {
+    "id": 1750967027207,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1898,
+    "tree_size": 835,
+    "path_length": 80
+  },
+  {
+    "id": 1750967036665,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1909,
+    "tree_size": 1010,
+    "path_length": 82
+  },
+  {
+    "id": 1750967036666,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1885,
+    "tree_size": 782,
+    "path_length": 86
+  },
+  {
+    "id": 1750967043563,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2844,
+    "tree_size": 1568,
+    "path_length": 94
+  },
+  {
+    "id": 1750967043564,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1478,
+    "tree_size": 692,
+    "path_length": 75
+  },
+  {
+    "id": 1750967054954,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2426,
+    "tree_size": 1387,
+    "path_length": 85
+  },
+  {
+    "id": 1750967054955,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1883,
+    "tree_size": 775,
+    "path_length": 77
+  },
+  {
+    "id": 1750967065240,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2258,
+    "tree_size": 1151,
+    "path_length": 89
+  },
+  {
+    "id": 1750967065241,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2200,
+    "tree_size": 1020,
+    "path_length": 82
+  },
+  {
+    "id": 1750967075753,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2557,
+    "tree_size": 1322,
+    "path_length": 91
+  },
+  {
+    "id": 1750967075754,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1672,
+    "tree_size": 783,
+    "path_length": 83
+  },
+  {
+    "id": 1750967086049,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2239,
+    "tree_size": 1166,
+    "path_length": 83
+  },
+  {
+    "id": 1750967086050,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2038,
+    "tree_size": 861,
+    "path_length": 81
+  },
+  {
+    "id": 1750967095022,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2070,
+    "tree_size": 1163,
+    "path_length": 81
+  },
+  {
+    "id": 1750967095023,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2009,
+    "tree_size": 839,
+    "path_length": 80
+  },
+  {
+    "id": 1750967104125,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2065,
+    "tree_size": 1086,
+    "path_length": 79
+  },
+  {
+    "id": 1750967104126,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2328,
+    "tree_size": 1017,
+    "path_length": 86
+  },
+  {
+    "id": 1750967113949,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2154,
+    "tree_size": 1215,
+    "path_length": 84
+  },
+  {
+    "id": 1750967113950,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2368,
+    "tree_size": 971,
+    "path_length": 86
+  },
+  {
+    "id": 1750967124013,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2466,
+    "tree_size": 1521,
+    "path_length": 77
+  },
+  {
+    "id": 1750967124014,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2318,
+    "tree_size": 1000,
+    "path_length": 88
+  },
+  {
+    "id": 1750967136739,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2509,
+    "tree_size": 1312,
+    "path_length": 87
+  },
+  {
+    "id": 1750967136740,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1897,
+    "tree_size": 826,
+    "path_length": 80
+  },
+  {
+    "id": 1750967146992,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1922,
+    "tree_size": 1081,
+    "path_length": 83
+  },
+  {
+    "id": 1750967146993,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2426,
+    "tree_size": 1002,
+    "path_length": 85
+  },
+  {
+    "id": 1750967156507,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2794,
+    "tree_size": 1453,
+    "path_length": 90
+  },
+  {
+    "id": 1750967156508,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1736,
+    "tree_size": 804,
+    "path_length": 79
+  },
+  {
+    "id": 1750967167991,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2772,
+    "tree_size": 1497,
+    "path_length": 85
+  },
+  {
+    "id": 1750967167992,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2159,
+    "tree_size": 953,
+    "path_length": 77
+  },
+  {
+    "id": 1750967180652,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3451,
+    "tree_size": 1838,
+    "path_length": 80
+  },
+  {
+    "id": 1750967180653,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2040,
+    "tree_size": 725,
+    "path_length": 82
+  },
+  {
+    "id": 1750967196303,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2214,
+    "tree_size": 1168,
+    "path_length": 76
+  },
+  {
+    "id": 1750967196304,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2633,
+    "tree_size": 1137,
+    "path_length": 88
+  },
+  {
+    "id": 1750967207394,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2544,
+    "tree_size": 1448,
+    "path_length": 80
+  },
+  {
+    "id": 1750967207395,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1805,
+    "tree_size": 837,
+    "path_length": 86
+  },
+  {
+    "id": 1750967218566,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2732,
+    "tree_size": 1460,
+    "path_length": 79
+  },
+  {
+    "id": 1750967218567,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2114,
+    "tree_size": 1000,
+    "path_length": 88
+  },
+  {
+    "id": 1750967231164,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2308,
+    "tree_size": 1290,
+    "path_length": 86
+  },
+  {
+    "id": 1750967231165,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2051,
+    "tree_size": 994,
+    "path_length": 83
+  },
+  {
+    "id": 1750967242177,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3204,
+    "tree_size": 1566,
+    "path_length": 77
+  },
+  {
+    "id": 1750967242178,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2294,
+    "tree_size": 1045,
+    "path_length": 82
+  },
+  {
+    "id": 1750967256876,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2098,
+    "tree_size": 1162,
+    "path_length": 84
+  },
+  {
+    "id": 1750967256877,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2112,
+    "tree_size": 853,
+    "path_length": 79
+  },
+  {
+    "id": 1750967265416,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3104,
+    "tree_size": 1694,
+    "path_length": 79
+  },
+  {
+    "id": 1750967265417,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2290,
+    "tree_size": 988,
+    "path_length": 92
+  },
+  {
+    "id": 1750967281024,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2192,
+    "tree_size": 1160,
+    "path_length": 77
+  },
+  {
+    "id": 1750967281025,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1822,
+    "tree_size": 822,
+    "path_length": 74
+  },
+  {
+    "id": 1750967289764,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2217,
+    "tree_size": 1140,
+    "path_length": 83
+  },
+  {
+    "id": 1750967289765,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1992,
+    "tree_size": 971,
+    "path_length": 87
+  },
+  {
+    "id": 1750967298981,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2475,
+    "tree_size": 1394,
+    "path_length": 80
+  },
+  {
+    "id": 1750967298982,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2373,
+    "tree_size": 997,
+    "path_length": 82
+  },
+  {
+    "id": 1750967311329,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2892,
+    "tree_size": 1632,
+    "path_length": 77
+  },
+  {
+    "id": 1750967311330,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2160,
+    "tree_size": 933,
+    "path_length": 83
+  },
+  {
+    "id": 1750967325405,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2002,
+    "tree_size": 1103,
+    "path_length": 82
+  },
+  {
+    "id": 1750967325406,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1799,
+    "tree_size": 736,
+    "path_length": 82
+  },
+  {
+    "id": 1750967332742,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3063,
+    "tree_size": 1560,
+    "path_length": 84
+  },
+  {
+    "id": 1750967332743,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2748,
+    "tree_size": 1159,
+    "path_length": 80
+  },
+  {
+    "id": 1750967348333,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2116,
+    "tree_size": 1135,
+    "path_length": 79
+  },
+  {
+    "id": 1750967348334,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2196,
+    "tree_size": 903,
+    "path_length": 81
+  },
+  {
+    "id": 1750967357453,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2622,
+    "tree_size": 1496,
+    "path_length": 71
+  },
+  {
+    "id": 1750967357454,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1777,
+    "tree_size": 906,
+    "path_length": 80
+  },
+  {
+    "id": 1750967369378,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2156,
+    "tree_size": 1141,
+    "path_length": 74
+  },
+  {
+    "id": 1750967369379,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2387,
+    "tree_size": 967,
+    "path_length": 83
+  },
+  {
+    "id": 1750967379094,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3140,
+    "tree_size": 1682,
+    "path_length": 83
+  },
+  {
+    "id": 1750967379095,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1755,
+    "tree_size": 889,
+    "path_length": 77
+  },
+  {
+    "id": 1750967393490,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2673,
+    "tree_size": 1470,
+    "path_length": 82
+  },
+  {
+    "id": 1750967393491,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1826,
+    "tree_size": 727,
+    "path_length": 77
+  },
+  {
+    "id": 1750967404824,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2835,
+    "tree_size": 1549,
+    "path_length": 85
+  },
+  {
+    "id": 1750967404825,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2172,
+    "tree_size": 858,
+    "path_length": 84
+  },
+  {
+    "id": 1750967417801,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2114,
+    "tree_size": 1228,
+    "path_length": 78
+  },
+  {
+    "id": 1750967417802,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2080,
+    "tree_size": 905,
+    "path_length": 79
+  },
+  {
+    "id": 1750967427287,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2494,
+    "tree_size": 1250,
+    "path_length": 79
+  },
+  {
+    "id": 1750967427288,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2261,
+    "tree_size": 876,
+    "path_length": 83
+  },
+  {
+    "id": 1750967437395,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2446,
+    "tree_size": 1355,
+    "path_length": 74
+  },
+  {
+    "id": 1750967437396,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1707,
+    "tree_size": 671,
+    "path_length": 83
+  },
+  {
+    "id": 1750967446750,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2281,
+    "tree_size": 1168,
+    "path_length": 84
+  },
+  {
+    "id": 1750967446751,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1710,
+    "tree_size": 766,
+    "path_length": 84
+  },
+  {
+    "id": 1750967455220,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3324,
+    "tree_size": 1762,
+    "path_length": 81
+  },
+  {
+    "id": 1750967455221,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2501,
+    "tree_size": 981,
+    "path_length": 83
+  },
+  {
+    "id": 1750967471268,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2815,
+    "tree_size": 1604,
+    "path_length": 87
+  },
+  {
+    "id": 1750967471269,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2417,
+    "tree_size": 968,
+    "path_length": 84
+  },
+  {
+    "id": 1750967485044,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2636,
+    "tree_size": 1340,
+    "path_length": 88
+  },
+  {
+    "id": 1750967485045,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2059,
+    "tree_size": 966,
+    "path_length": 84
+  },
+  {
+    "id": 1750967496626,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2638,
+    "tree_size": 1363,
+    "path_length": 82
+  },
+  {
+    "id": 1750967496627,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2236,
+    "tree_size": 852,
+    "path_length": 76
+  },
+  {
+    "id": 1750967507358,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2189,
+    "tree_size": 1195,
+    "path_length": 85
+  },
+  {
+    "id": 1750967507359,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2177,
+    "tree_size": 983,
+    "path_length": 82
+  },
+  {
+    "id": 1750967517496,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2094,
+    "tree_size": 1191,
+    "path_length": 80
+  },
+  {
+    "id": 1750967517497,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2159,
+    "tree_size": 908,
+    "path_length": 77
+  },
+  {
+    "id": 1750967526648,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2181,
+    "tree_size": 1201,
+    "path_length": 82
+  },
+  {
+    "id": 1750967526649,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1956,
+    "tree_size": 850,
+    "path_length": 83
+  },
+  {
+    "id": 1750967535576,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2599,
+    "tree_size": 1432,
+    "path_length": 75
+  },
+  {
+    "id": 1750967535577,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1890,
+    "tree_size": 804,
+    "path_length": 80
+  },
+  {
+    "id": 1750967546431,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2650,
+    "tree_size": 1526,
+    "path_length": 85
+  },
+  {
+    "id": 1750967546432,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2260,
+    "tree_size": 965,
+    "path_length": 79
+  },
+  {
+    "id": 1750967559671,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3077,
+    "tree_size": 1583,
+    "path_length": 89
+  },
+  {
+    "id": 1750967559672,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2195,
+    "tree_size": 983,
+    "path_length": 79
+  },
+  {
+    "id": 1750967573575,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2416,
+    "tree_size": 1361,
+    "path_length": 84
+  },
+  {
+    "id": 1750967573576,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1895,
+    "tree_size": 964,
+    "path_length": 80
+  },
+  {
+    "id": 1750967584958,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2203,
+    "tree_size": 1228,
+    "path_length": 84
+  },
+  {
+    "id": 1750967584959,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2067,
+    "tree_size": 1046,
+    "path_length": 83
+  },
+  {
+    "id": 1750967595723,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2768,
+    "tree_size": 1524,
+    "path_length": 86
+  },
+  {
+    "id": 1750967595724,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2174,
+    "tree_size": 881,
+    "path_length": 88
+  },
+  {
+    "id": 1750967608251,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2838,
+    "tree_size": 1479,
+    "path_length": 84
+  },
+  {
+    "id": 1750967608252,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1803,
+    "tree_size": 795,
+    "path_length": 82
+  },
+  {
+    "id": 1750967620093,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2741,
+    "tree_size": 1408,
+    "path_length": 85
+  },
+  {
+    "id": 1750967620094,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2299,
+    "tree_size": 973,
+    "path_length": 83
+  },
+  {
+    "id": 1750967632411,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2428,
+    "tree_size": 1362,
+    "path_length": 84
+  },
+  {
+    "id": 1750967632412,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1951,
+    "tree_size": 827,
+    "path_length": 78
+  },
+  {
+    "id": 1750967642569,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2573,
+    "tree_size": 1427,
+    "path_length": 84
+  },
+  {
+    "id": 1750967642570,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1952,
+    "tree_size": 846,
+    "path_length": 82
+  },
+  {
+    "id": 1750967653796,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2347,
+    "tree_size": 1276,
+    "path_length": 87
+  },
+  {
+    "id": 1750967653797,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1651,
+    "tree_size": 729,
+    "path_length": 80
+  },
+  {
+    "id": 1750967662609,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2186,
+    "tree_size": 1144,
+    "path_length": 89
+  },
+  {
+    "id": 1750967662610,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2155,
+    "tree_size": 994,
+    "path_length": 85
+  },
+  {
+    "id": 1750967671972,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2968,
+    "tree_size": 1689,
+    "path_length": 84
+  },
+  {
+    "id": 1750967671973,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2020,
+    "tree_size": 823,
+    "path_length": 81
+  },
+  {
+    "id": 1750967685855,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2872,
+    "tree_size": 1671,
+    "path_length": 76
+  },
+  {
+    "id": 1750967685856,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 3051,
+    "tree_size": 1154,
+    "path_length": 86
+  },
+  {
+    "id": 1750967702895,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2346,
+    "tree_size": 1092,
+    "path_length": 77
+  },
+  {
+    "id": 1750967702896,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1494,
+    "tree_size": 592,
+    "path_length": 76
+  },
+  {
+    "id": 1750967710196,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2342,
+    "tree_size": 1212,
+    "path_length": 81
+  },
+  {
+    "id": 1750967710197,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1670,
+    "tree_size": 784,
+    "path_length": 81
+  },
+  {
+    "id": 1750967719123,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2510,
+    "tree_size": 1311,
+    "path_length": 83
+  },
+  {
+    "id": 1750967719124,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2283,
+    "tree_size": 943,
+    "path_length": 79
+  },
+  {
+    "id": 1750967730711,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1898,
+    "tree_size": 965,
+    "path_length": 74
+  },
+  {
+    "id": 1750967730712,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2118,
+    "tree_size": 944,
+    "path_length": 73
+  },
+  {
+    "id": 1750967738899,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3061,
+    "tree_size": 1599,
+    "path_length": 90
+  },
+  {
+    "id": 1750967738900,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2058,
+    "tree_size": 824,
+    "path_length": 79
+  },
+  {
+    "id": 1750967752642,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2692,
+    "tree_size": 1561,
+    "path_length": 89
+  },
+  {
+    "id": 1750967752643,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2462,
+    "tree_size": 1015,
+    "path_length": 83
+  },
+  {
+    "id": 1750967766600,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2864,
+    "tree_size": 1567,
+    "path_length": 78
+  },
+  {
+    "id": 1750967766601,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2115,
+    "tree_size": 935,
+    "path_length": 81
+  },
+  {
+    "id": 1750967779647,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2248,
+    "tree_size": 1187,
+    "path_length": 84
+  },
+  {
+    "id": 1750967779648,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1822,
+    "tree_size": 839,
+    "path_length": 78
+  },
+  {
+    "id": 1750967788418,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2167,
+    "tree_size": 1064,
+    "path_length": 85
+  },
+  {
+    "id": 1750967788419,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1927,
+    "tree_size": 762,
+    "path_length": 82
+  },
+  {
+    "id": 1750967796153,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2640,
+    "tree_size": 1450,
+    "path_length": 85
+  },
+  {
+    "id": 1750967796154,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2259,
+    "tree_size": 1013,
+    "path_length": 83
+  },
+  {
+    "id": 1750967808556,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2418,
+    "tree_size": 1447,
+    "path_length": 85
+  },
+  {
+    "id": 1750967808557,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1873,
+    "tree_size": 816,
+    "path_length": 81
+  },
+  {
+    "id": 1750967818988,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2885,
+    "tree_size": 1472,
+    "path_length": 82
+  },
+  {
+    "id": 1750967818989,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2569,
+    "tree_size": 1106,
+    "path_length": 90
+  },
+  {
+    "id": 1750967833090,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2549,
+    "tree_size": 1476,
+    "path_length": 80
+  },
+  {
+    "id": 1750967833091,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2606,
+    "tree_size": 988,
+    "path_length": 90
+  },
+  {
+    "id": 1750967846131,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2356,
+    "tree_size": 1186,
+    "path_length": 81
+  },
+  {
+    "id": 1750967846132,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1800,
+    "tree_size": 750,
+    "path_length": 80
+  },
+  {
+    "id": 1750967854890,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1460,
+    "tree_size": 847,
+    "path_length": 78
+  },
+  {
+    "id": 1750967854891,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1696,
+    "tree_size": 678,
+    "path_length": 74
+  },
+  {
+    "id": 1750967859933,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2907,
+    "tree_size": 1555,
+    "path_length": 83
+  },
+  {
+    "id": 1750967859934,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2152,
+    "tree_size": 895,
+    "path_length": 80
+  },
+  {
+    "id": 1750967873162,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2007,
+    "tree_size": 1153,
+    "path_length": 79
+  },
+  {
+    "id": 1750967873163,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2105,
+    "tree_size": 862,
+    "path_length": 80
+  },
+  {
+    "id": 1750967882532,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2301,
+    "tree_size": 1183,
+    "path_length": 81
+  },
+  {
+    "id": 1750967882533,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2265,
+    "tree_size": 1015,
+    "path_length": 86
+  },
+  {
+    "id": 1750967893626,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2525,
+    "tree_size": 1411,
+    "path_length": 85
+  },
+  {
+    "id": 1750967893627,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2430,
+    "tree_size": 919,
+    "path_length": 86
+  },
+  {
+    "id": 1750967906804,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2506,
+    "tree_size": 1224,
+    "path_length": 78
+  },
+  {
+    "id": 1750967906805,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2347,
+    "tree_size": 1070,
+    "path_length": 81
+  },
+  {
+    "id": 1750967919517,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3600,
+    "tree_size": 1780,
+    "path_length": 96
+  },
+  {
+    "id": 1750967919518,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2415,
+    "tree_size": 1096,
+    "path_length": 82
+  },
+  {
+    "id": 1750967939909,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2000,
+    "tree_size": 1004,
+    "path_length": 80
+  },
+  {
+    "id": 1750967939910,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1996,
+    "tree_size": 855,
+    "path_length": 76
+  },
+  {
+    "id": 1750967948148,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2856,
+    "tree_size": 1647,
+    "path_length": 82
+  },
+  {
+    "id": 1750967948149,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1829,
+    "tree_size": 892,
+    "path_length": 86
+  },
+  {
+    "id": 1750967963293,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2707,
+    "tree_size": 1518,
+    "path_length": 79
+  },
+  {
+    "id": 1750967963294,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2119,
+    "tree_size": 945,
+    "path_length": 84
+  },
+  {
+    "id": 1750967976900,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2457,
+    "tree_size": 1241,
+    "path_length": 77
+  },
+  {
+    "id": 1750967976901,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1661,
+    "tree_size": 719,
+    "path_length": 82
+  },
+  {
+    "id": 1750967985919,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2658,
+    "tree_size": 1263,
+    "path_length": 80
+  },
+  {
+    "id": 1750967985920,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2325,
+    "tree_size": 843,
+    "path_length": 81
+  },
+  {
+    "id": 1750967997017,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3031,
+    "tree_size": 1468,
+    "path_length": 79
+  },
+  {
+    "id": 1750967997018,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2245,
+    "tree_size": 891,
+    "path_length": 80
+  },
+  {
+    "id": 1750968009868,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2578,
+    "tree_size": 1325,
+    "path_length": 86
+  },
+  {
+    "id": 1750968009869,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2236,
+    "tree_size": 921,
+    "path_length": 90
+  },
+  {
+    "id": 1750968021291,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2966,
+    "tree_size": 1655,
+    "path_length": 81
+  },
+  {
+    "id": 1750968021292,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2190,
+    "tree_size": 844,
+    "path_length": 84
+  },
+  {
+    "id": 1750968035068,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2237,
+    "tree_size": 1116,
+    "path_length": 85
+  },
+  {
+    "id": 1750968035069,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1899,
+    "tree_size": 820,
+    "path_length": 81
+  },
+  {
+    "id": 1750968043332,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3285,
+    "tree_size": 1799,
+    "path_length": 80
+  },
+  {
+    "id": 1750968043333,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1630,
+    "tree_size": 677,
+    "path_length": 76
+  },
+  {
+    "id": 1750968058031,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3573,
+    "tree_size": 2096,
+    "path_length": 84
+  },
+  {
+    "id": 1750968058032,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2720,
+    "tree_size": 1232,
+    "path_length": 83
+  },
+  {
+    "id": 1750968081721,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2603,
+    "tree_size": 1373,
+    "path_length": 86
+  },
+  {
+    "id": 1750968081722,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2527,
+    "tree_size": 957,
+    "path_length": 82
+  },
+  {
+    "id": 1750968093907,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2210,
+    "tree_size": 1250,
+    "path_length": 75
+  },
+  {
+    "id": 1750968093908,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1921,
+    "tree_size": 849,
+    "path_length": 84
+  },
+  {
+    "id": 1750968103067,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1645,
+    "tree_size": 999,
+    "path_length": 75
+  },
+  {
+    "id": 1750968103068,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2171,
+    "tree_size": 892,
+    "path_length": 87
+  },
+  {
+    "id": 1750968110845,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3349,
+    "tree_size": 1821,
+    "path_length": 83
+  },
+  {
+    "id": 1750968110846,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2081,
+    "tree_size": 1088,
+    "path_length": 80
+  },
+  {
+    "id": 1750968128397,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1987,
+    "tree_size": 1059,
+    "path_length": 79
+  },
+  {
+    "id": 1750968128398,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1945,
+    "tree_size": 928,
+    "path_length": 85
+  },
+  {
+    "id": 1750968136731,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2356,
+    "tree_size": 1120,
+    "path_length": 85
+  },
+  {
+    "id": 1750968136732,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1422,
+    "tree_size": 613,
+    "path_length": 83
+  },
+  {
+    "id": 1750968144027,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2009,
+    "tree_size": 1107,
+    "path_length": 85
+  },
+  {
+    "id": 1750968144028,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2063,
+    "tree_size": 850,
+    "path_length": 77
+  },
+  {
+    "id": 1750968152347,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2352,
+    "tree_size": 1328,
+    "path_length": 82
+  },
+  {
+    "id": 1750968152348,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1954,
+    "tree_size": 905,
+    "path_length": 77
+  },
+  {
+    "id": 1750968163252,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2398,
+    "tree_size": 1333,
+    "path_length": 84
+  },
+  {
+    "id": 1750968163253,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2405,
+    "tree_size": 1089,
+    "path_length": 82
+  },
+  {
+    "id": 1750968175362,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2332,
+    "tree_size": 1423,
+    "path_length": 77
+  },
+  {
+    "id": 1750968175363,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2258,
+    "tree_size": 875,
+    "path_length": 89
+  },
+  {
+    "id": 1750968186884,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2193,
+    "tree_size": 1217,
+    "path_length": 83
+  },
+  {
+    "id": 1750968186885,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1686,
+    "tree_size": 757,
+    "path_length": 79
+  },
+  {
+    "id": 1750968195582,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2036,
+    "tree_size": 1121,
+    "path_length": 79
+  },
+  {
+    "id": 1750968195583,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1536,
+    "tree_size": 724,
+    "path_length": 76
+  },
+  {
+    "id": 1750968203207,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2182,
+    "tree_size": 1152,
+    "path_length": 73
+  },
+  {
+    "id": 1750968203208,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1750,
+    "tree_size": 731,
+    "path_length": 76
+  },
+  {
+    "id": 1750968210948,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2127,
+    "tree_size": 1198,
+    "path_length": 80
+  },
+  {
+    "id": 1750968210949,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2193,
+    "tree_size": 978,
+    "path_length": 83
+  },
+  {
+    "id": 1750968220976,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2824,
+    "tree_size": 1354,
+    "path_length": 87
+  },
+  {
+    "id": 1750968220977,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1940,
+    "tree_size": 818,
+    "path_length": 88
+  },
+  {
+    "id": 1750968231877,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2282,
+    "tree_size": 1325,
+    "path_length": 80
+  },
+  {
+    "id": 1750968231878,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1864,
+    "tree_size": 894,
+    "path_length": 77
+  },
+  {
+    "id": 1750968241838,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2434,
+    "tree_size": 1282,
+    "path_length": 87
+  },
+  {
+    "id": 1750968241839,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2206,
+    "tree_size": 942,
+    "path_length": 87
+  },
+  {
+    "id": 1750968252672,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2936,
+    "tree_size": 1587,
+    "path_length": 79
+  },
+  {
+    "id": 1750968252673,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2038,
+    "tree_size": 825,
+    "path_length": 87
+  },
+  {
+    "id": 1750968265620,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2202,
+    "tree_size": 1272,
+    "path_length": 87
+  },
+  {
+    "id": 1750968265621,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2112,
+    "tree_size": 921,
+    "path_length": 77
+  },
+  {
+    "id": 1750968275676,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2532,
+    "tree_size": 1381,
+    "path_length": 79
+  },
+  {
+    "id": 1750968275677,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2240,
+    "tree_size": 906,
+    "path_length": 94
+  },
+  {
+    "id": 1750968287037,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2776,
+    "tree_size": 1507,
+    "path_length": 81
+  },
+  {
+    "id": 1750968287038,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2519,
+    "tree_size": 1036,
+    "path_length": 82
+  },
+  {
+    "id": 1750968300941,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3491,
+    "tree_size": 1743,
+    "path_length": 80
+  },
+  {
+    "id": 1750968300942,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2566,
+    "tree_size": 1302,
+    "path_length": 78
+  },
+  {
+    "id": 1750968319866,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2438,
+    "tree_size": 1386,
+    "path_length": 77
+  },
+  {
+    "id": 1750968319867,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2691,
+    "tree_size": 1147,
+    "path_length": 89
+  },
+  {
+    "id": 1750968333553,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2574,
+    "tree_size": 1461,
+    "path_length": 87
+  },
+  {
+    "id": 1750968333554,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1662,
+    "tree_size": 674,
+    "path_length": 75
+  },
+  {
+    "id": 1750968344122,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2293,
+    "tree_size": 1249,
+    "path_length": 81
+  },
+  {
+    "id": 1750968344123,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2091,
+    "tree_size": 794,
+    "path_length": 82
+  },
+  {
+    "id": 1750968353360,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2638,
+    "tree_size": 1506,
+    "path_length": 84
+  },
+  {
+    "id": 1750968353361,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2321,
+    "tree_size": 1135,
+    "path_length": 81
+  },
+  {
+    "id": 1750968367395,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2740,
+    "tree_size": 1465,
+    "path_length": 82
+  },
+  {
+    "id": 1750968367396,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2038,
+    "tree_size": 936,
+    "path_length": 85
+  },
+  {
+    "id": 1750968379932,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2495,
+    "tree_size": 1249,
+    "path_length": 88
+  },
+  {
+    "id": 1750968379933,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1660,
+    "tree_size": 754,
+    "path_length": 82
+  },
+  {
+    "id": 1750968388920,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2738,
+    "tree_size": 1543,
+    "path_length": 81
+  },
+  {
+    "id": 1750968388921,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2081,
+    "tree_size": 946,
+    "path_length": 84
+  },
+  {
+    "id": 1750968402091,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2079,
+    "tree_size": 964,
+    "path_length": 82
+  },
+  {
+    "id": 1750968402092,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1519,
+    "tree_size": 683,
+    "path_length": 79
+  },
+  {
+    "id": 1750968408651,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2317,
+    "tree_size": 1254,
+    "path_length": 80
+  },
+  {
+    "id": 1750968408652,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1729,
+    "tree_size": 765,
+    "path_length": 83
+  },
+  {
+    "id": 1750968417511,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2133,
+    "tree_size": 1200,
+    "path_length": 75
+  },
+  {
+    "id": 1750968417512,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2002,
+    "tree_size": 948,
+    "path_length": 82
+  },
+  {
+    "id": 1750968427132,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1938,
+    "tree_size": 1136,
+    "path_length": 83
+  },
+  {
+    "id": 1750968427133,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1835,
+    "tree_size": 874,
+    "path_length": 81
+  },
+  {
+    "id": 1750968435294,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1923,
+    "tree_size": 1095,
+    "path_length": 81
+  },
+  {
+    "id": 1750968435295,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2064,
+    "tree_size": 856,
+    "path_length": 79
+  },
+  {
+    "id": 1750968443352,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1850,
+    "tree_size": 1043,
+    "path_length": 77
+  },
+  {
+    "id": 1750968443353,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2480,
+    "tree_size": 924,
+    "path_length": 83
+  },
+  {
+    "id": 1750968451772,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2457,
+    "tree_size": 1378,
+    "path_length": 84
+  },
+  {
+    "id": 1750968451773,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1591,
+    "tree_size": 636,
+    "path_length": 78
+  },
+  {
+    "id": 1750968461334,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2679,
+    "tree_size": 1487,
+    "path_length": 88
+  },
+  {
+    "id": 1750968461335,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2051,
+    "tree_size": 1026,
+    "path_length": 88
+  },
+  {
+    "id": 1750968474883,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2428,
+    "tree_size": 1256,
+    "path_length": 81
+  },
+  {
+    "id": 1750968474884,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1928,
+    "tree_size": 857,
+    "path_length": 81
+  },
+  {
+    "id": 1750968484609,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2569,
+    "tree_size": 1378,
+    "path_length": 88
+  },
+  {
+    "id": 1750968484610,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2070,
+    "tree_size": 828,
+    "path_length": 82
+  },
+  {
+    "id": 1750968495627,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2554,
+    "tree_size": 1276,
+    "path_length": 86
+  },
+  {
+    "id": 1750968495628,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2698,
+    "tree_size": 1189,
+    "path_length": 85
+  },
+  {
+    "id": 1750968508353,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2350,
+    "tree_size": 1280,
+    "path_length": 75
+  },
+  {
+    "id": 1750968508354,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1900,
+    "tree_size": 953,
+    "path_length": 84
+  },
+  {
+    "id": 1750968518409,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2503,
+    "tree_size": 1411,
+    "path_length": 85
+  },
+  {
+    "id": 1750968518410,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2810,
+    "tree_size": 1185,
+    "path_length": 86
+  },
+  {
+    "id": 1750968532610,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2575,
+    "tree_size": 1422,
+    "path_length": 81
+  },
+  {
+    "id": 1750968532611,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1620,
+    "tree_size": 741,
+    "path_length": 78
+  },
+  {
+    "id": 1750968543030,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3037,
+    "tree_size": 1703,
+    "path_length": 86
+  },
+  {
+    "id": 1750968543031,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1718,
+    "tree_size": 758,
+    "path_length": 85
+  },
+  {
+    "id": 1750968556475,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1451,
+    "tree_size": 763,
+    "path_length": 78
+  },
+  {
+    "id": 1750968556476,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2263,
+    "tree_size": 998,
+    "path_length": 86
+  },
+  {
+    "id": 1750968563329,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3163,
+    "tree_size": 1742,
+    "path_length": 88
+  },
+  {
+    "id": 1750968563330,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1984,
+    "tree_size": 909,
+    "path_length": 80
+  },
+  {
+    "id": 1750968578355,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2517,
+    "tree_size": 1407,
+    "path_length": 93
+  },
+  {
+    "id": 1750968578356,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2189,
+    "tree_size": 978,
+    "path_length": 80
+  },
+  {
+    "id": 1750968590473,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3159,
+    "tree_size": 1613,
+    "path_length": 83
+  },
+  {
+    "id": 1750968590474,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1725,
+    "tree_size": 621,
+    "path_length": 80
+  },
+  {
+    "id": 1750968602727,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3043,
+    "tree_size": 1666,
+    "path_length": 83
+  },
+  {
+    "id": 1750968602728,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1955,
+    "tree_size": 788,
+    "path_length": 85
+  },
+  {
+    "id": 1750968616242,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2856,
+    "tree_size": 1606,
+    "path_length": 87
+  },
+  {
+    "id": 1750968616243,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2216,
+    "tree_size": 993,
+    "path_length": 79
+  },
+  {
+    "id": 1750968630605,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2939,
+    "tree_size": 1390,
+    "path_length": 84
+  },
+  {
+    "id": 1750968630606,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2146,
+    "tree_size": 873,
+    "path_length": 73
+  },
+  {
+    "id": 1750968642203,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2533,
+    "tree_size": 1373,
+    "path_length": 78
+  },
+  {
+    "id": 1750968642204,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1781,
+    "tree_size": 774,
+    "path_length": 77
+  },
+  {
+    "id": 1750968652338,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2324,
+    "tree_size": 1222,
+    "path_length": 83
+  },
+  {
+    "id": 1750968652339,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1829,
+    "tree_size": 839,
+    "path_length": 88
+  },
+  {
+    "id": 1750968662034,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3676,
+    "tree_size": 2077,
+    "path_length": 87
+  },
+  {
+    "id": 1750968662035,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2051,
+    "tree_size": 773,
+    "path_length": 81
+  },
+  {
+    "id": 1750968680560,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2976,
+    "tree_size": 1543,
+    "path_length": 85
+  },
+  {
+    "id": 1750968680561,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1752,
+    "tree_size": 728,
+    "path_length": 80
+  },
+  {
+    "id": 1750968692624,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2263,
+    "tree_size": 1178,
+    "path_length": 78
+  },
+  {
+    "id": 1750968692625,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1985,
+    "tree_size": 891,
+    "path_length": 81
+  },
+  {
+    "id": 1750968701974,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3072,
+    "tree_size": 1656,
+    "path_length": 92
+  },
+  {
+    "id": 1750968701975,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1922,
+    "tree_size": 825,
+    "path_length": 78
+  },
+  {
+    "id": 1750968715385,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2476,
+    "tree_size": 1275,
+    "path_length": 80
+  },
+  {
+    "id": 1750968715386,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1932,
+    "tree_size": 925,
+    "path_length": 90
+  },
+  {
+    "id": 1750968725726,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2377,
+    "tree_size": 1320,
+    "path_length": 82
+  },
+  {
+    "id": 1750968725727,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2773,
+    "tree_size": 1072,
+    "path_length": 85
+  },
+  {
+    "id": 1750968738148,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2722,
+    "tree_size": 1470,
+    "path_length": 94
+  },
+  {
+    "id": 1750968738149,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1693,
+    "tree_size": 763,
+    "path_length": 83
+  },
+  {
+    "id": 1750968749025,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2530,
+    "tree_size": 1378,
+    "path_length": 79
+  },
+  {
+    "id": 1750968749026,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2116,
+    "tree_size": 965,
+    "path_length": 78
+  },
+  {
+    "id": 1750968760783,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2688,
+    "tree_size": 1400,
+    "path_length": 79
+  },
+  {
+    "id": 1750968760784,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2585,
+    "tree_size": 966,
+    "path_length": 83
+  },
+  {
+    "id": 1750968773280,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2798,
+    "tree_size": 1349,
+    "path_length": 88
+  },
+  {
+    "id": 1750968773281,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2705,
+    "tree_size": 1144,
+    "path_length": 78
+  },
+  {
+    "id": 1750968786933,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2295,
+    "tree_size": 1275,
+    "path_length": 88
+  },
+  {
+    "id": 1750968786934,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2037,
+    "tree_size": 925,
+    "path_length": 86
+  },
+  {
+    "id": 1750968797188,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2566,
+    "tree_size": 1469,
+    "path_length": 87
+  },
+  {
+    "id": 1750968797189,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1890,
+    "tree_size": 961,
+    "path_length": 78
+  },
+  {
+    "id": 1750968809180,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2016,
+    "tree_size": 1151,
+    "path_length": 80
+  },
+  {
+    "id": 1750968809181,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2144,
+    "tree_size": 952,
+    "path_length": 81
+  },
+  {
+    "id": 1750968818183,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2701,
+    "tree_size": 1482,
+    "path_length": 83
+  },
+  {
+    "id": 1750968818184,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1768,
+    "tree_size": 670,
+    "path_length": 85
+  },
+  {
+    "id": 1750968829531,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2408,
+    "tree_size": 1222,
+    "path_length": 83
+  },
+  {
+    "id": 1750968829532,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1542,
+    "tree_size": 779,
+    "path_length": 79
+  },
+  {
+    "id": 1750968838547,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1787,
+    "tree_size": 1002,
+    "path_length": 79
+  },
+  {
+    "id": 1750968838548,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2163,
+    "tree_size": 892,
+    "path_length": 77
+  },
+  {
+    "id": 1750968846671,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2532,
+    "tree_size": 1293,
+    "path_length": 81
+  },
+  {
+    "id": 1750968846672,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1870,
+    "tree_size": 947,
+    "path_length": 78
+  },
+  {
+    "id": 1750968858104,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2468,
+    "tree_size": 1283,
+    "path_length": 93
+  },
+  {
+    "id": 1750968858105,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1795,
+    "tree_size": 795,
+    "path_length": 76
+  },
+  {
+    "id": 1750968867804,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2856,
+    "tree_size": 1531,
+    "path_length": 82
+  },
+  {
+    "id": 1750968867805,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1504,
+    "tree_size": 704,
+    "path_length": 75
+  },
+  {
+    "id": 1750968879609,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1938,
+    "tree_size": 885,
+    "path_length": 81
+  },
+  {
+    "id": 1750968879610,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2858,
+    "tree_size": 1150,
+    "path_length": 88
+  },
+  {
+    "id": 1750968889371,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3010,
+    "tree_size": 1650,
+    "path_length": 82
+  },
+  {
+    "id": 1750968889372,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1892,
+    "tree_size": 912,
+    "path_length": 77
+  },
+  {
+    "id": 1750968903471,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2444,
+    "tree_size": 1249,
+    "path_length": 87
+  },
+  {
+    "id": 1750968903472,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1958,
+    "tree_size": 850,
+    "path_length": 81
+  },
+  {
+    "id": 1750968913907,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1914,
+    "tree_size": 1076,
+    "path_length": 78
+  },
+  {
+    "id": 1750968913908,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1763,
+    "tree_size": 799,
+    "path_length": 81
+  },
+  {
+    "id": 1750968921682,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2678,
+    "tree_size": 1455,
+    "path_length": 75
+  },
+  {
+    "id": 1750968921683,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1769,
+    "tree_size": 793,
+    "path_length": 77
+  },
+  {
+    "id": 1750968933180,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2051,
+    "tree_size": 1068,
+    "path_length": 78
+  },
+  {
+    "id": 1750968933181,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2539,
+    "tree_size": 1038,
+    "path_length": 83
+  },
+  {
+    "id": 1750968943419,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2455,
+    "tree_size": 1287,
+    "path_length": 81
+  },
+  {
+    "id": 1750968943420,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1785,
+    "tree_size": 708,
+    "path_length": 84
+  },
+  {
+    "id": 1750968953387,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2196,
+    "tree_size": 1318,
+    "path_length": 87
+  },
+  {
+    "id": 1750968953388,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1887,
+    "tree_size": 917,
+    "path_length": 84
+  },
+  {
+    "id": 1750968963989,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2327,
+    "tree_size": 1216,
+    "path_length": 91
+  },
+  {
+    "id": 1750968963990,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1869,
+    "tree_size": 896,
+    "path_length": 79
+  },
+  {
+    "id": 1750968973922,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2362,
+    "tree_size": 1368,
+    "path_length": 79
+  },
+  {
+    "id": 1750968973923,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1821,
+    "tree_size": 804,
+    "path_length": 81
+  },
+  {
+    "id": 1750968984053,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2534,
+    "tree_size": 1347,
+    "path_length": 89
+  },
+  {
+    "id": 1750968984054,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1846,
+    "tree_size": 767,
+    "path_length": 85
+  },
+  {
+    "id": 1750968994788,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2702,
+    "tree_size": 1398,
+    "path_length": 84
+  },
+  {
+    "id": 1750968994789,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1922,
+    "tree_size": 882,
+    "path_length": 77
+  },
+  {
+    "id": 1750969006400,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2540,
+    "tree_size": 1382,
+    "path_length": 83
+  },
+  {
+    "id": 1750969006401,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2242,
+    "tree_size": 942,
+    "path_length": 89
+  },
+  {
+    "id": 1750969018187,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3033,
+    "tree_size": 1661,
+    "path_length": 83
+  },
+  {
+    "id": 1750969018188,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2151,
+    "tree_size": 1008,
+    "path_length": 74
+  },
+  {
+    "id": 1750969033793,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2537,
+    "tree_size": 1397,
+    "path_length": 74
+  },
+  {
+    "id": 1750969033794,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2215,
+    "tree_size": 930,
+    "path_length": 84
+  },
+  {
+    "id": 1750969045589,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2148,
+    "tree_size": 1163,
+    "path_length": 82
+  },
+  {
+    "id": 1750969045590,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2122,
+    "tree_size": 876,
+    "path_length": 82
+  },
+  {
+    "id": 1750969054619,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2385,
+    "tree_size": 1298,
+    "path_length": 87
+  },
+  {
+    "id": 1750969054620,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1585,
+    "tree_size": 630,
+    "path_length": 71
+  },
+  {
+    "id": 1750969063349,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3225,
+    "tree_size": 1739,
+    "path_length": 90
+  },
+  {
+    "id": 1750969063350,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2409,
+    "tree_size": 928,
+    "path_length": 89
+  },
+  {
+    "id": 1750969079461,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2929,
+    "tree_size": 1470,
+    "path_length": 80
+  },
+  {
+    "id": 1750969079462,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1520,
+    "tree_size": 594,
+    "path_length": 78
+  },
+  {
+    "id": 1750969090487,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2318,
+    "tree_size": 1262,
+    "path_length": 79
+  },
+  {
+    "id": 1750969090488,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1661,
+    "tree_size": 841,
+    "path_length": 87
+  },
+  {
+    "id": 1750969100110,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2969,
+    "tree_size": 1515,
+    "path_length": 83
+  },
+  {
+    "id": 1750969100111,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2326,
+    "tree_size": 993,
+    "path_length": 87
+  },
+  {
+    "id": 1750969114798,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2482,
+    "tree_size": 1310,
+    "path_length": 83
+  },
+  {
+    "id": 1750969114799,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1934,
+    "tree_size": 791,
+    "path_length": 81
+  },
+  {
+    "id": 1750969126004,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2187,
+    "tree_size": 1190,
+    "path_length": 87
+  },
+  {
+    "id": 1750969126005,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2174,
+    "tree_size": 869,
+    "path_length": 79
+  },
+  {
+    "id": 1750969135642,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2318,
+    "tree_size": 1352,
+    "path_length": 81
+  },
+  {
+    "id": 1750969135643,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1918,
+    "tree_size": 895,
+    "path_length": 78
+  },
+  {
+    "id": 1750969147262,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2365,
+    "tree_size": 1248,
+    "path_length": 84
+  },
+  {
+    "id": 1750969147263,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1616,
+    "tree_size": 700,
+    "path_length": 81
+  },
+  {
+    "id": 1750969156122,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2177,
+    "tree_size": 1052,
+    "path_length": 84
+  },
+  {
+    "id": 1750969156123,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2008,
+    "tree_size": 1033,
+    "path_length": 85
+  },
+  {
+    "id": 1750969165976,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3096,
+    "tree_size": 1547,
+    "path_length": 82
+  },
+  {
+    "id": 1750969165977,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2257,
+    "tree_size": 916,
+    "path_length": 78
+  },
+  {
+    "id": 1750969179963,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2737,
+    "tree_size": 1446,
+    "path_length": 83
+  },
+  {
+    "id": 1750969179964,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1793,
+    "tree_size": 782,
+    "path_length": 79
+  },
+  {
+    "id": 1750969191435,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2885,
+    "tree_size": 1630,
+    "path_length": 87
+  },
+  {
+    "id": 1750969191436,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2114,
+    "tree_size": 955,
+    "path_length": 80
+  },
+  {
+    "id": 1750969206096,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2136,
+    "tree_size": 1269,
+    "path_length": 83
+  },
+  {
+    "id": 1750969206097,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1543,
+    "tree_size": 738,
+    "path_length": 77
+  },
+  {
+    "id": 1750969214783,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2933,
+    "tree_size": 1650,
+    "path_length": 84
+  },
+  {
+    "id": 1750969214784,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2650,
+    "tree_size": 1232,
+    "path_length": 85
+  },
+  {
+    "id": 1750969231755,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2113,
+    "tree_size": 1053,
+    "path_length": 80
+  },
+  {
+    "id": 1750969231756,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2190,
+    "tree_size": 845,
+    "path_length": 86
+  },
+  {
+    "id": 1750969240408,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3194,
+    "tree_size": 1646,
+    "path_length": 84
+  },
+  {
+    "id": 1750969240409,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1962,
+    "tree_size": 798,
+    "path_length": 88
+  },
+  {
+    "id": 1750969254118,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3091,
+    "tree_size": 1785,
+    "path_length": 94
+  },
+  {
+    "id": 1750969254119,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2060,
+    "tree_size": 892,
+    "path_length": 73
+  },
+  {
+    "id": 1750969269817,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2476,
+    "tree_size": 1342,
+    "path_length": 86
+  },
+  {
+    "id": 1750969269818,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1514,
+    "tree_size": 674,
+    "path_length": 75
+  },
+  {
+    "id": 1750969279239,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2276,
+    "tree_size": 1194,
+    "path_length": 81
+  },
+  {
+    "id": 1750969279240,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2112,
+    "tree_size": 916,
+    "path_length": 82
+  },
+  {
+    "id": 1750969289447,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1906,
+    "tree_size": 886,
+    "path_length": 75
+  },
+  {
+    "id": 1750969289448,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2172,
+    "tree_size": 928,
+    "path_length": 83
+  },
+  {
+    "id": 1750969297156,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2787,
+    "tree_size": 1600,
+    "path_length": 79
+  },
+  {
+    "id": 1750969297157,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1867,
+    "tree_size": 813,
+    "path_length": 72
+  },
+  {
+    "id": 1750969310401,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2663,
+    "tree_size": 1554,
+    "path_length": 79
+  },
+  {
+    "id": 1750969310402,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1659,
+    "tree_size": 716,
+    "path_length": 77
+  },
+  {
+    "id": 1750969321941,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2549,
+    "tree_size": 1389,
+    "path_length": 83
+  },
+  {
+    "id": 1750969321942,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2647,
+    "tree_size": 1141,
+    "path_length": 81
+  },
+  {
+    "id": 1750969335603,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2453,
+    "tree_size": 1384,
+    "path_length": 85
+  },
+  {
+    "id": 1750969335604,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1961,
+    "tree_size": 918,
+    "path_length": 85
+  },
+  {
+    "id": 1750969346947,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2657,
+    "tree_size": 1309,
+    "path_length": 83
+  },
+  {
+    "id": 1750969346948,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1444,
+    "tree_size": 628,
+    "path_length": 78
+  },
+  {
+    "id": 1750969355848,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2377,
+    "tree_size": 1271,
+    "path_length": 78
+  },
+  {
+    "id": 1750969355849,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1983,
+    "tree_size": 796,
+    "path_length": 81
+  },
+  {
+    "id": 1750969365876,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2530,
+    "tree_size": 1394,
+    "path_length": 77
+  },
+  {
+    "id": 1750969365877,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1863,
+    "tree_size": 778,
+    "path_length": 75
+  },
+  {
+    "id": 1750969376547,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2302,
+    "tree_size": 1173,
+    "path_length": 83
+  },
+  {
+    "id": 1750969376548,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2100,
+    "tree_size": 918,
+    "path_length": 89
+  },
+  {
+    "id": 1750969386085,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1811,
+    "tree_size": 961,
+    "path_length": 80
+  },
+  {
+    "id": 1750969386086,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2008,
+    "tree_size": 828,
+    "path_length": 85
+  },
+  {
+    "id": 1750969393312,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2899,
+    "tree_size": 1532,
+    "path_length": 89
+  },
+  {
+    "id": 1750969393313,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2178,
+    "tree_size": 902,
+    "path_length": 76
+  },
+  {
+    "id": 1750969406630,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2433,
+    "tree_size": 1317,
+    "path_length": 97
+  },
+  {
+    "id": 1750969406631,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2320,
+    "tree_size": 1112,
+    "path_length": 84
+  },
+  {
+    "id": 1750969419095,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2283,
+    "tree_size": 1283,
+    "path_length": 87
+  },
+  {
+    "id": 1750969419096,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2307,
+    "tree_size": 1187,
+    "path_length": 80
+  },
+  {
+    "id": 1750969431523,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2656,
+    "tree_size": 1525,
+    "path_length": 85
+  },
+  {
+    "id": 1750969431524,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1925,
+    "tree_size": 815,
+    "path_length": 81
+  },
+  {
+    "id": 1750969443573,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2534,
+    "tree_size": 1237,
+    "path_length": 84
+  },
+  {
+    "id": 1750969443574,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1553,
+    "tree_size": 735,
+    "path_length": 80
+  },
+  {
+    "id": 1750969452381,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2458,
+    "tree_size": 1371,
+    "path_length": 86
+  },
+  {
+    "id": 1750969452382,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1972,
+    "tree_size": 802,
+    "path_length": 75
+  },
+  {
+    "id": 1750969463149,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2023,
+    "tree_size": 1110,
+    "path_length": 81
+  },
+  {
+    "id": 1750969463150,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2395,
+    "tree_size": 926,
+    "path_length": 86
+  },
+  {
+    "id": 1750969472441,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2173,
+    "tree_size": 1157,
+    "path_length": 84
+  },
+  {
+    "id": 1750969472442,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2240,
+    "tree_size": 1046,
+    "path_length": 75
+  },
+  {
+    "id": 1750969482651,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2604,
+    "tree_size": 1434,
+    "path_length": 84
+  },
+  {
+    "id": 1750969482652,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1990,
+    "tree_size": 883,
+    "path_length": 87
+  },
+  {
+    "id": 1750969494166,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2892,
+    "tree_size": 1589,
+    "path_length": 87
+  },
+  {
+    "id": 1750969494167,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1860,
+    "tree_size": 802,
+    "path_length": 78
+  },
+  {
+    "id": 1750969507142,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2330,
+    "tree_size": 1278,
+    "path_length": 79
+  },
+  {
+    "id": 1750969507143,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2240,
+    "tree_size": 907,
+    "path_length": 80
+  },
+  {
+    "id": 1750969517504,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3025,
+    "tree_size": 1661,
+    "path_length": 79
+  },
+  {
+    "id": 1750969517505,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1758,
+    "tree_size": 693,
+    "path_length": 85
+  },
+  {
+    "id": 1750969530510,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2482,
+    "tree_size": 1297,
+    "path_length": 89
+  },
+  {
+    "id": 1750969530511,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2112,
+    "tree_size": 1009,
+    "path_length": 85
+  },
+  {
+    "id": 1750969541271,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2081,
+    "tree_size": 1133,
+    "path_length": 78
+  },
+  {
+    "id": 1750969541272,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1880,
+    "tree_size": 863,
+    "path_length": 79
+  },
+  {
+    "id": 1750969550038,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2502,
+    "tree_size": 1390,
+    "path_length": 81
+  },
+  {
+    "id": 1750969550039,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1872,
+    "tree_size": 810,
+    "path_length": 78
+  },
+  {
+    "id": 1750969560824,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3090,
+    "tree_size": 1600,
+    "path_length": 81
+  },
+  {
+    "id": 1750969560825,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2003,
+    "tree_size": 907,
+    "path_length": 85
+  },
+  {
+    "id": 1750969575005,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2533,
+    "tree_size": 1362,
+    "path_length": 80
+  },
+  {
+    "id": 1750969575006,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1987,
+    "tree_size": 880,
+    "path_length": 85
+  },
+  {
+    "id": 1750969586260,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2503,
+    "tree_size": 1340,
+    "path_length": 86
+  },
+  {
+    "id": 1750969586261,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2240,
+    "tree_size": 936,
+    "path_length": 79
+  },
+  {
+    "id": 1750969597564,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2247,
+    "tree_size": 1145,
+    "path_length": 79
+  },
+  {
+    "id": 1750969597565,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2407,
+    "tree_size": 1107,
+    "path_length": 76
+  },
+  {
+    "id": 1750969608204,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2220,
+    "tree_size": 1210,
+    "path_length": 77
+  },
+  {
+    "id": 1750969608205,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2258,
+    "tree_size": 972,
+    "path_length": 78
+  },
+  {
+    "id": 1750969618759,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2665,
+    "tree_size": 1423,
+    "path_length": 88
+  },
+  {
+    "id": 1750969618760,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2017,
+    "tree_size": 812,
+    "path_length": 83
+  },
+  {
+    "id": 1750969630285,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2367,
+    "tree_size": 1321,
+    "path_length": 83
+  },
+  {
+    "id": 1750969630286,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2623,
+    "tree_size": 1086,
+    "path_length": 90
+  },
+  {
+    "id": 1750969642698,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2568,
+    "tree_size": 1456,
+    "path_length": 83
+  },
+  {
+    "id": 1750969642699,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2209,
+    "tree_size": 948,
+    "path_length": 82
+  },
+  {
+    "id": 1750969656527,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2120,
+    "tree_size": 1211,
+    "path_length": 81
+  },
+  {
+    "id": 1750969656528,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1877,
+    "tree_size": 745,
+    "path_length": 78
+  },
+  {
+    "id": 1750969665953,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3608,
+    "tree_size": 1912,
+    "path_length": 94
+  },
+  {
+    "id": 1750969665954,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1775,
+    "tree_size": 734,
+    "path_length": 77
+  },
+  {
+    "id": 1750969683357,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2647,
+    "tree_size": 1499,
+    "path_length": 85
+  },
+  {
+    "id": 1750969683358,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2054,
+    "tree_size": 1016,
+    "path_length": 81
+  },
+  {
+    "id": 1750969697531,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2725,
+    "tree_size": 1463,
+    "path_length": 89
+  },
+  {
+    "id": 1750969697532,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1864,
+    "tree_size": 791,
+    "path_length": 87
+  },
+  {
+    "id": 1750969710007,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2688,
+    "tree_size": 1446,
+    "path_length": 80
+  },
+  {
+    "id": 1750969710008,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2021,
+    "tree_size": 776,
+    "path_length": 84
+  },
+  {
+    "id": 1750969722374,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1978,
+    "tree_size": 1042,
+    "path_length": 82
+  },
+  {
+    "id": 1750969722375,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2219,
+    "tree_size": 955,
+    "path_length": 91
+  },
+  {
+    "id": 1750969731709,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1766,
+    "tree_size": 879,
+    "path_length": 73
+  },
+  {
+    "id": 1750969731710,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2845,
+    "tree_size": 1219,
+    "path_length": 80
+  },
+  {
+    "id": 1750969742577,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3185,
+    "tree_size": 1805,
+    "path_length": 75
+  },
+  {
+    "id": 1750969742578,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2178,
+    "tree_size": 1060,
+    "path_length": 82
+  },
+  {
+    "id": 1750969761230,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2220,
+    "tree_size": 1191,
+    "path_length": 80
+  },
+  {
+    "id": 1750969761231,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1859,
+    "tree_size": 826,
+    "path_length": 77
+  },
+  {
+    "id": 1750969770364,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3077,
+    "tree_size": 1722,
+    "path_length": 76
+  },
+  {
+    "id": 1750969770365,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2542,
+    "tree_size": 942,
+    "path_length": 84
+  },
+  {
+    "id": 1750969787608,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2313,
+    "tree_size": 1352,
+    "path_length": 80
+  },
+  {
+    "id": 1750969787609,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1528,
+    "tree_size": 651,
+    "path_length": 79
+  },
+  {
+    "id": 1750969797291,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2353,
+    "tree_size": 1216,
+    "path_length": 77
+  },
+  {
+    "id": 1750969797292,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2136,
+    "tree_size": 963,
+    "path_length": 77
+  },
+  {
+    "id": 1750969809583,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2363,
+    "tree_size": 1315,
+    "path_length": 83
+  },
+  {
+    "id": 1750969809584,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2105,
+    "tree_size": 840,
+    "path_length": 84
+  },
+  {
+    "id": 1750969822736,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3103,
+    "tree_size": 1542,
+    "path_length": 80
+  },
+  {
+    "id": 1750969822737,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1827,
+    "tree_size": 773,
+    "path_length": 86
+  },
+  {
+    "id": 1750969838261,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2418,
+    "tree_size": 1180,
+    "path_length": 89
+  },
+  {
+    "id": 1750969838262,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2252,
+    "tree_size": 1039,
+    "path_length": 79
+  },
+  {
+    "id": 1750969851302,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1968,
+    "tree_size": 1117,
+    "path_length": 83
+  },
+  {
+    "id": 1750969851303,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1458,
+    "tree_size": 635,
+    "path_length": 78
+  },
+  {
+    "id": 1750969860014,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2591,
+    "tree_size": 1419,
+    "path_length": 78
+  },
+  {
+    "id": 1750969860015,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2002,
+    "tree_size": 845,
+    "path_length": 85
+  },
+  {
+    "id": 1750969872205,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2238,
+    "tree_size": 1157,
+    "path_length": 89
+  },
+  {
+    "id": 1750969872206,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1909,
+    "tree_size": 726,
+    "path_length": 73
+  },
+  {
+    "id": 1750969881232,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2941,
+    "tree_size": 1610,
+    "path_length": 80
+  },
+  {
+    "id": 1750969881233,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2170,
+    "tree_size": 1074,
+    "path_length": 75
+  },
+  {
+    "id": 1750969897318,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3049,
+    "tree_size": 1691,
+    "path_length": 87
+  },
+  {
+    "id": 1750969897319,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1669,
+    "tree_size": 777,
+    "path_length": 77
+  },
+  {
+    "id": 1750969910955,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2622,
+    "tree_size": 1509,
+    "path_length": 80
+  },
+  {
+    "id": 1750969910956,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2210,
+    "tree_size": 940,
+    "path_length": 79
+  },
+  {
+    "id": 1750969923899,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2525,
+    "tree_size": 1343,
+    "path_length": 84
+  },
+  {
+    "id": 1750969923900,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2511,
+    "tree_size": 923,
+    "path_length": 79
+  },
+  {
+    "id": 1750969935877,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2512,
+    "tree_size": 1273,
+    "path_length": 82
+  },
+  {
+    "id": 1750969935878,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2029,
+    "tree_size": 897,
+    "path_length": 86
+  },
+  {
+    "id": 1750969946709,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2310,
+    "tree_size": 1249,
+    "path_length": 85
+  },
+  {
+    "id": 1750969946710,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1663,
+    "tree_size": 729,
+    "path_length": 76
+  },
+  {
+    "id": 1750969956261,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2370,
+    "tree_size": 1212,
+    "path_length": 79
+  },
+  {
+    "id": 1750969956262,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1827,
+    "tree_size": 742,
+    "path_length": 81
+  },
+  {
+    "id": 1750969965359,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2594,
+    "tree_size": 1371,
+    "path_length": 80
+  },
+  {
+    "id": 1750969965360,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2215,
+    "tree_size": 910,
+    "path_length": 76
+  },
+  {
+    "id": 1750969977695,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3043,
+    "tree_size": 1631,
+    "path_length": 86
+  },
+  {
+    "id": 1750969977696,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2063,
+    "tree_size": 758,
+    "path_length": 81
+  },
+  {
+    "id": 1750969991846,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2882,
+    "tree_size": 1562,
+    "path_length": 84
+  },
+  {
+    "id": 1750969991847,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1974,
+    "tree_size": 945,
+    "path_length": 83
+  },
+  {
+    "id": 1750970006230,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2324,
+    "tree_size": 1189,
+    "path_length": 81
+  },
+  {
+    "id": 1750970006231,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2244,
+    "tree_size": 918,
+    "path_length": 77
+  },
+  {
+    "id": 1750970016862,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2080,
+    "tree_size": 1047,
+    "path_length": 84
+  },
+  {
+    "id": 1750970016863,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2055,
+    "tree_size": 946,
+    "path_length": 85
+  },
+  {
+    "id": 1750970026950,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2533,
+    "tree_size": 1425,
+    "path_length": 87
+  },
+  {
+    "id": 1750970026951,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1905,
+    "tree_size": 779,
+    "path_length": 87
+  },
+  {
+    "id": 1750970037986,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2289,
+    "tree_size": 1291,
+    "path_length": 82
+  },
+  {
+    "id": 1750970037987,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1877,
+    "tree_size": 798,
+    "path_length": 81
+  },
+  {
+    "id": 1750970048171,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2755,
+    "tree_size": 1621,
+    "path_length": 85
+  },
+  {
+    "id": 1750970048172,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2657,
+    "tree_size": 1123,
+    "path_length": 82
+  },
+  {
+    "id": 1750970064619,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3725,
+    "tree_size": 2010,
+    "path_length": 85
+  },
+  {
+    "id": 1750970064620,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1944,
+    "tree_size": 756,
+    "path_length": 77
+  },
+  {
+    "id": 1750970084247,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2501,
+    "tree_size": 1393,
+    "path_length": 78
+  },
+  {
+    "id": 1750970084248,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1887,
+    "tree_size": 773,
+    "path_length": 83
+  },
+  {
+    "id": 1750970094876,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3245,
+    "tree_size": 1870,
+    "path_length": 81
+  },
+  {
+    "id": 1750970094877,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2376,
+    "tree_size": 1077,
+    "path_length": 80
+  },
+  {
+    "id": 1750970114333,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2828,
+    "tree_size": 1514,
+    "path_length": 85
+  },
+  {
+    "id": 1750970114334,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1965,
+    "tree_size": 837,
+    "path_length": 89
+  },
+  {
+    "id": 1750970127522,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2268,
+    "tree_size": 1164,
+    "path_length": 89
+  },
+  {
+    "id": 1750970127523,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2102,
+    "tree_size": 986,
+    "path_length": 82
+  },
+  {
+    "id": 1750970138147,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2590,
+    "tree_size": 1487,
+    "path_length": 84
+  },
+  {
+    "id": 1750970138148,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2185,
+    "tree_size": 858,
+    "path_length": 85
+  },
+  {
+    "id": 1750970151091,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2699,
+    "tree_size": 1532,
+    "path_length": 85
+  },
+  {
+    "id": 1750970151092,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1714,
+    "tree_size": 772,
+    "path_length": 76
+  },
+  {
+    "id": 1750970163315,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2449,
+    "tree_size": 1362,
+    "path_length": 90
+  },
+  {
+    "id": 1750970163316,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1928,
+    "tree_size": 865,
+    "path_length": 84
+  },
+  {
+    "id": 1750970174395,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2619,
+    "tree_size": 1478,
+    "path_length": 87
+  },
+  {
+    "id": 1750970174396,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2661,
+    "tree_size": 1199,
+    "path_length": 73
+  },
+  {
+    "id": 1750970189204,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2909,
+    "tree_size": 1479,
+    "path_length": 87
+  },
+  {
+    "id": 1750970189205,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2745,
+    "tree_size": 1294,
+    "path_length": 81
+  },
+  {
+    "id": 1750970205349,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2842,
+    "tree_size": 1471,
+    "path_length": 88
+  },
+  {
+    "id": 1750970205350,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1842,
+    "tree_size": 897,
+    "path_length": 81
+  },
+  {
+    "id": 1750970218057,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2072,
+    "tree_size": 1202,
+    "path_length": 77
+  },
+  {
+    "id": 1750970218058,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2094,
+    "tree_size": 818,
+    "path_length": 83
+  },
+  {
+    "id": 1750970226707,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2008,
+    "tree_size": 1004,
+    "path_length": 88
+  },
+  {
+    "id": 1750970226708,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2205,
+    "tree_size": 969,
+    "path_length": 76
+  },
+  {
+    "id": 1750970235716,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2154,
+    "tree_size": 1263,
+    "path_length": 76
+  },
+  {
+    "id": 1750970235717,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2526,
+    "tree_size": 1188,
+    "path_length": 90
+  },
+  {
+    "id": 1750970247849,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2865,
+    "tree_size": 1617,
+    "path_length": 82
+  },
+  {
+    "id": 1750970247850,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1667,
+    "tree_size": 621,
+    "path_length": 79
+  },
+  {
+    "id": 1750970259686,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2118,
+    "tree_size": 1110,
+    "path_length": 85
+  },
+  {
+    "id": 1750970259687,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1972,
+    "tree_size": 848,
+    "path_length": 85
+  },
+  {
+    "id": 1750970268042,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2229,
+    "tree_size": 1194,
+    "path_length": 83
+  },
+  {
+    "id": 1750970268043,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2178,
+    "tree_size": 1047,
+    "path_length": 90
+  },
+  {
+    "id": 1750970278428,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2576,
+    "tree_size": 1436,
+    "path_length": 79
+  },
+  {
+    "id": 1750970278429,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2168,
+    "tree_size": 923,
+    "path_length": 81
+  },
+  {
+    "id": 1750970290882,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1793,
+    "tree_size": 963,
+    "path_length": 82
+  },
+  {
+    "id": 1750970290883,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2482,
+    "tree_size": 996,
+    "path_length": 80
+  },
+  {
+    "id": 1750970299488,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2325,
+    "tree_size": 1354,
+    "path_length": 78
+  },
+  {
+    "id": 1750970299489,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2260,
+    "tree_size": 929,
+    "path_length": 79
+  },
+  {
+    "id": 1750970310454,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2484,
+    "tree_size": 1184,
+    "path_length": 79
+  },
+  {
+    "id": 1750970310455,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1709,
+    "tree_size": 811,
+    "path_length": 76
+  },
+  {
+    "id": 1750970319477,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3281,
+    "tree_size": 1691,
+    "path_length": 87
+  },
+  {
+    "id": 1750970319478,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1768,
+    "tree_size": 813,
+    "path_length": 76
+  },
+  {
+    "id": 1750970333597,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1890,
+    "tree_size": 1018,
+    "path_length": 84
+  },
+  {
+    "id": 1750970333598,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2245,
+    "tree_size": 1059,
+    "path_length": 80
+  },
+  {
+    "id": 1750970342834,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2271,
+    "tree_size": 1267,
+    "path_length": 83
+  },
+  {
+    "id": 1750970342835,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1852,
+    "tree_size": 833,
+    "path_length": 80
+  },
+  {
+    "id": 1750970352764,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3359,
+    "tree_size": 1943,
+    "path_length": 99
+  },
+  {
+    "id": 1750970352765,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1855,
+    "tree_size": 776,
+    "path_length": 77
+  },
+  {
+    "id": 1750970369262,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2256,
+    "tree_size": 1175,
+    "path_length": 87
+  },
+  {
+    "id": 1750970369263,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2400,
+    "tree_size": 984,
+    "path_length": 83
+  },
+  {
+    "id": 1750970379605,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2437,
+    "tree_size": 1323,
+    "path_length": 80
+  },
+  {
+    "id": 1750970379606,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1928,
+    "tree_size": 839,
+    "path_length": 81
+  },
+  {
+    "id": 1750970389963,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2329,
+    "tree_size": 1125,
+    "path_length": 84
+  },
+  {
+    "id": 1750970389964,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2221,
+    "tree_size": 980,
+    "path_length": 84
+  },
+  {
+    "id": 1750970399785,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3268,
+    "tree_size": 1672,
+    "path_length": 85
+  },
+  {
+    "id": 1750970399786,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1756,
+    "tree_size": 714,
+    "path_length": 82
+  },
+  {
+    "id": 1750970413234,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2343,
+    "tree_size": 1348,
+    "path_length": 79
+  },
+  {
+    "id": 1750970413235,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2116,
+    "tree_size": 846,
+    "path_length": 80
+  },
+  {
+    "id": 1750970423770,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2309,
+    "tree_size": 1202,
+    "path_length": 72
+  },
+  {
+    "id": 1750970423771,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2260,
+    "tree_size": 1028,
+    "path_length": 78
+  },
+  {
+    "id": 1750970434315,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2644,
+    "tree_size": 1381,
+    "path_length": 77
+  },
+  {
+    "id": 1750970434316,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1895,
+    "tree_size": 916,
+    "path_length": 85
+  },
+  {
+    "id": 1750970445493,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2844,
+    "tree_size": 1468,
+    "path_length": 84
+  },
+  {
+    "id": 1750970445494,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1912,
+    "tree_size": 865,
+    "path_length": 80
+  },
+  {
+    "id": 1750970457464,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2747,
+    "tree_size": 1368,
+    "path_length": 80
+  },
+  {
+    "id": 1750970457465,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1723,
+    "tree_size": 774,
+    "path_length": 79
+  },
+  {
+    "id": 1750970468030,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2971,
+    "tree_size": 1680,
+    "path_length": 87
+  },
+  {
+    "id": 1750970468031,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1684,
+    "tree_size": 722,
+    "path_length": 83
+  },
+  {
+    "id": 1750970480852,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2357,
+    "tree_size": 1232,
+    "path_length": 85
+  },
+  {
+    "id": 1750970480853,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2715,
+    "tree_size": 1158,
+    "path_length": 84
+  },
+  {
+    "id": 1750970494345,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2265,
+    "tree_size": 1353,
+    "path_length": 77
+  },
+  {
+    "id": 1750970494346,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1560,
+    "tree_size": 758,
+    "path_length": 77
+  },
+  {
+    "id": 1750970504634,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2057,
+    "tree_size": 1073,
+    "path_length": 78
+  },
+  {
+    "id": 1750970504635,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2240,
+    "tree_size": 863,
+    "path_length": 87
+  },
+  {
+    "id": 1750970514329,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3145,
+    "tree_size": 1794,
+    "path_length": 86
+  },
+  {
+    "id": 1750970514330,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2011,
+    "tree_size": 919,
+    "path_length": 81
+  },
+  {
+    "id": 1750970531503,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2977,
+    "tree_size": 1679,
+    "path_length": 87
+  },
+  {
+    "id": 1750970531504,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2197,
+    "tree_size": 910,
+    "path_length": 80
+  },
+  {
+    "id": 1750970546815,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2390,
+    "tree_size": 1297,
+    "path_length": 87
+  },
+  {
+    "id": 1750970546816,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1763,
+    "tree_size": 656,
+    "path_length": 84
+  },
+  {
+    "id": 1750970558590,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2925,
+    "tree_size": 1415,
+    "path_length": 92
+  },
+  {
+    "id": 1750970558591,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2275,
+    "tree_size": 921,
+    "path_length": 79
+  },
+  {
+    "id": 1750970573013,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2639,
+    "tree_size": 1421,
+    "path_length": 81
+  },
+  {
+    "id": 1750970573014,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2023,
+    "tree_size": 874,
+    "path_length": 85
+  },
+  {
+    "id": 1750970586729,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2649,
+    "tree_size": 1351,
+    "path_length": 81
+  },
+  {
+    "id": 1750970586730,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1898,
+    "tree_size": 775,
+    "path_length": 78
+  },
+  {
+    "id": 1750970598842,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3136,
+    "tree_size": 1668,
+    "path_length": 85
+  },
+  {
+    "id": 1750970598843,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2104,
+    "tree_size": 978,
+    "path_length": 84
+  },
+  {
+    "id": 1750970615963,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1883,
+    "tree_size": 1124,
+    "path_length": 73
+  },
+  {
+    "id": 1750970615964,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2299,
+    "tree_size": 985,
+    "path_length": 82
+  },
+  {
+    "id": 1750970626430,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2527,
+    "tree_size": 1302,
+    "path_length": 78
+  },
+  {
+    "id": 1750970626431,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2024,
+    "tree_size": 888,
+    "path_length": 71
+  },
+  {
+    "id": 1750970638013,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3987,
+    "tree_size": 2249,
+    "path_length": 85
+  },
+  {
+    "id": 1750970638014,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1709,
+    "tree_size": 758,
+    "path_length": 79
+  },
+  {
+    "id": 1750970662647,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2272,
+    "tree_size": 1174,
+    "path_length": 87
+  },
+  {
+    "id": 1750970662648,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2401,
+    "tree_size": 849,
+    "path_length": 78
+  },
+  {
+    "id": 1750970673524,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3131,
+    "tree_size": 1724,
+    "path_length": 79
+  },
+  {
+    "id": 1750970673525,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2169,
+    "tree_size": 869,
+    "path_length": 86
+  },
+  {
+    "id": 1750970688700,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2225,
+    "tree_size": 1309,
+    "path_length": 76
+  },
+  {
+    "id": 1750970688701,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1872,
+    "tree_size": 787,
+    "path_length": 78
+  },
+  {
+    "id": 1750970699539,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2226,
+    "tree_size": 1299,
+    "path_length": 75
+  },
+  {
+    "id": 1750970699540,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2370,
+    "tree_size": 1017,
+    "path_length": 76
+  },
+  {
+    "id": 1750970711619,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2432,
+    "tree_size": 1402,
+    "path_length": 80
+  },
+  {
+    "id": 1750970711620,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2107,
+    "tree_size": 907,
+    "path_length": 81
+  },
+  {
+    "id": 1750970723248,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3249,
+    "tree_size": 1708,
+    "path_length": 84
+  },
+  {
+    "id": 1750970723249,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1686,
+    "tree_size": 658,
+    "path_length": 86
+  },
+  {
+    "id": 1750970737980,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2746,
+    "tree_size": 1595,
+    "path_length": 85
+  },
+  {
+    "id": 1750970737981,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2244,
+    "tree_size": 866,
+    "path_length": 80
+  },
+  {
+    "id": 1750970751741,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2352,
+    "tree_size": 1216,
+    "path_length": 87
+  },
+  {
+    "id": 1750970751742,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1558,
+    "tree_size": 624,
+    "path_length": 77
+  },
+  {
+    "id": 1750970760046,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2396,
+    "tree_size": 1365,
+    "path_length": 85
+  },
+  {
+    "id": 1750970760047,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2025,
+    "tree_size": 803,
+    "path_length": 78
+  },
+  {
+    "id": 1750970770933,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3589,
+    "tree_size": 1975,
+    "path_length": 82
+  },
+  {
+    "id": 1750970770934,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1861,
+    "tree_size": 811,
+    "path_length": 85
+  },
+  {
+    "id": 1750970790001,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2807,
+    "tree_size": 1506,
+    "path_length": 99
+  },
+  {
+    "id": 1750970790002,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1404,
+    "tree_size": 660,
+    "path_length": 83
+  },
+  {
+    "id": 1750970801144,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2676,
+    "tree_size": 1454,
+    "path_length": 84
+  },
+  {
+    "id": 1750970801145,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2192,
+    "tree_size": 960,
+    "path_length": 81
+  },
+  {
+    "id": 1750970814398,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2213,
+    "tree_size": 1251,
+    "path_length": 87
+  },
+  {
+    "id": 1750970814399,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2152,
+    "tree_size": 924,
+    "path_length": 80
+  },
+  {
+    "id": 1750970825077,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2948,
+    "tree_size": 1640,
+    "path_length": 84
+  },
+  {
+    "id": 1750970825078,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1632,
+    "tree_size": 924,
+    "path_length": 75
+  },
+  {
+    "id": 1750970839271,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2471,
+    "tree_size": 1357,
+    "path_length": 78
+  },
+  {
+    "id": 1750970839272,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2019,
+    "tree_size": 1022,
+    "path_length": 83
+  },
+  {
+    "id": 1750970851223,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2539,
+    "tree_size": 1485,
+    "path_length": 78
+  },
+  {
+    "id": 1750970851224,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2784,
+    "tree_size": 1392,
+    "path_length": 86
+  },
+  {
+    "id": 1750970868423,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2915,
+    "tree_size": 1495,
+    "path_length": 85
+  },
+  {
+    "id": 1750970868424,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1626,
+    "tree_size": 766,
+    "path_length": 79
+  },
+  {
+    "id": 1750970880681,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2245,
+    "tree_size": 1236,
+    "path_length": 82
+  },
+  {
+    "id": 1750970880682,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2045,
+    "tree_size": 959,
+    "path_length": 87
+  },
+  {
+    "id": 1750970891072,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2439,
+    "tree_size": 1314,
+    "path_length": 83
+  },
+  {
+    "id": 1750970891073,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1897,
+    "tree_size": 907,
+    "path_length": 83
+  },
+  {
+    "id": 1750970902248,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2383,
+    "tree_size": 1370,
+    "path_length": 87
+  },
+  {
+    "id": 1750970902249,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1617,
+    "tree_size": 783,
+    "path_length": 80
+  },
+  {
+    "id": 1750970912737,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1990,
+    "tree_size": 1145,
+    "path_length": 82
+  },
+  {
+    "id": 1750970912738,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1732,
+    "tree_size": 753,
+    "path_length": 85
+  },
+  {
+    "id": 1750970920639,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3016,
+    "tree_size": 1567,
+    "path_length": 85
+  },
+  {
+    "id": 1750970920640,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1602,
+    "tree_size": 679,
+    "path_length": 75
+  },
+  {
+    "id": 1750970932983,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2408,
+    "tree_size": 1320,
+    "path_length": 80
+  },
+  {
+    "id": 1750970932984,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1899,
+    "tree_size": 943,
+    "path_length": 76
+  },
+  {
+    "id": 1750970944470,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2052,
+    "tree_size": 1213,
+    "path_length": 80
+  },
+  {
+    "id": 1750970944471,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2031,
+    "tree_size": 907,
+    "path_length": 80
+  },
+  {
+    "id": 1750970953852,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2843,
+    "tree_size": 1550,
+    "path_length": 80
+  },
+  {
+    "id": 1750970953853,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2255,
+    "tree_size": 1021,
+    "path_length": 89
+  },
+  {
+    "id": 1750970968129,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2583,
+    "tree_size": 1487,
+    "path_length": 78
+  },
+  {
+    "id": 1750970968130,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1781,
+    "tree_size": 747,
+    "path_length": 76
+  },
+  {
+    "id": 1750970979123,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2688,
+    "tree_size": 1483,
+    "path_length": 81
+  },
+  {
+    "id": 1750970979124,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1679,
+    "tree_size": 745,
+    "path_length": 74
+  },
+  {
+    "id": 1750970990196,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2324,
+    "tree_size": 1209,
+    "path_length": 86
+  },
+  {
+    "id": 1750970990197,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2037,
+    "tree_size": 870,
+    "path_length": 85
+  },
+  {
+    "id": 1750970999817,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2075,
+    "tree_size": 1073,
+    "path_length": 84
+  },
+  {
+    "id": 1750970999818,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2161,
+    "tree_size": 792,
+    "path_length": 82
+  },
+  {
+    "id": 1750971007670,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2529,
+    "tree_size": 1170,
+    "path_length": 83
+  },
+  {
+    "id": 1750971007671,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2576,
+    "tree_size": 1063,
+    "path_length": 93
+  },
+  {
+    "id": 1750971019049,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2041,
+    "tree_size": 1158,
+    "path_length": 83
+  },
+  {
+    "id": 1750971019050,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1803,
+    "tree_size": 813,
+    "path_length": 88
+  },
+  {
+    "id": 1750971027249,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1552,
+    "tree_size": 786,
+    "path_length": 77
+  },
+  {
+    "id": 1750971027250,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2285,
+    "tree_size": 966,
+    "path_length": 85
+  },
+  {
+    "id": 1750971034519,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2491,
+    "tree_size": 1241,
+    "path_length": 92
+  },
+  {
+    "id": 1750971034520,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1929,
+    "tree_size": 871,
+    "path_length": 78
+  },
+  {
+    "id": 1750971044370,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2222,
+    "tree_size": 1211,
+    "path_length": 86
+  },
+  {
+    "id": 1750971044371,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2348,
+    "tree_size": 925,
+    "path_length": 83
+  },
+  {
+    "id": 1750971054282,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2637,
+    "tree_size": 1335,
+    "path_length": 82
+  },
+  {
+    "id": 1750971054283,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2052,
+    "tree_size": 847,
+    "path_length": 88
+  },
+  {
+    "id": 1750971065098,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1978,
+    "tree_size": 1032,
+    "path_length": 76
+  },
+  {
+    "id": 1750971065099,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2399,
+    "tree_size": 1103,
+    "path_length": 78
+  },
+  {
+    "id": 1750971074811,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2523,
+    "tree_size": 1270,
+    "path_length": 86
+  },
+  {
+    "id": 1750971074812,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2353,
+    "tree_size": 986,
+    "path_length": 82
+  },
+  {
+    "id": 1750971085915,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3017,
+    "tree_size": 1638,
+    "path_length": 89
+  },
+  {
+    "id": 1750971085916,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2022,
+    "tree_size": 875,
+    "path_length": 82
+  },
+  {
+    "id": 1750971099862,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2582,
+    "tree_size": 1474,
+    "path_length": 83
+  },
+  {
+    "id": 1750971099863,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2197,
+    "tree_size": 912,
+    "path_length": 85
+  },
+  {
+    "id": 1750971112131,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3238,
+    "tree_size": 1653,
+    "path_length": 84
+  },
+  {
+    "id": 1750971112132,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1580,
+    "tree_size": 700,
+    "path_length": 77
+  },
+  {
+    "id": 1750971125217,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1843,
+    "tree_size": 991,
+    "path_length": 81
+  },
+  {
+    "id": 1750971125218,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2305,
+    "tree_size": 1064,
+    "path_length": 80
+  },
+  {
+    "id": 1750971134427,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2601,
+    "tree_size": 1398,
+    "path_length": 87
+  },
+  {
+    "id": 1750971134428,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1572,
+    "tree_size": 619,
+    "path_length": 78
+  },
+  {
+    "id": 1750971144212,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1932,
+    "tree_size": 1027,
+    "path_length": 82
+  },
+  {
+    "id": 1750971144213,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2174,
+    "tree_size": 883,
+    "path_length": 83
+  },
+  {
+    "id": 1750971152244,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2589,
+    "tree_size": 1249,
+    "path_length": 83
+  },
+  {
+    "id": 1750971152245,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2546,
+    "tree_size": 1050,
+    "path_length": 76
+  },
+  {
+    "id": 1750971163933,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3050,
+    "tree_size": 1747,
+    "path_length": 85
+  },
+  {
+    "id": 1750971163934,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1624,
+    "tree_size": 729,
+    "path_length": 76
+  },
+  {
+    "id": 1750971177736,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2834,
+    "tree_size": 1579,
+    "path_length": 81
+  },
+  {
+    "id": 1750971177737,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2448,
+    "tree_size": 989,
+    "path_length": 91
+  },
+  {
+    "id": 1750971192081,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2169,
+    "tree_size": 1190,
+    "path_length": 84
+  },
+  {
+    "id": 1750971192082,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2215,
+    "tree_size": 855,
+    "path_length": 82
+  },
+  {
+    "id": 1750971201648,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2029,
+    "tree_size": 1116,
+    "path_length": 83
+  },
+  {
+    "id": 1750971201649,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2099,
+    "tree_size": 856,
+    "path_length": 78
+  },
+  {
+    "id": 1750971210161,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2360,
+    "tree_size": 1311,
+    "path_length": 82
+  },
+  {
+    "id": 1750971210162,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1865,
+    "tree_size": 860,
+    "path_length": 77
+  },
+  {
+    "id": 1750971219901,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2556,
+    "tree_size": 1502,
+    "path_length": 83
+  },
+  {
+    "id": 1750971219902,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2275,
+    "tree_size": 898,
+    "path_length": 83
+  },
+  {
+    "id": 1750971232621,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2702,
+    "tree_size": 1505,
+    "path_length": 80
+  },
+  {
+    "id": 1750971232622,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2026,
+    "tree_size": 915,
+    "path_length": 88
+  },
+  {
+    "id": 1750971245402,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2850,
+    "tree_size": 1568,
+    "path_length": 84
+  },
+  {
+    "id": 1750971245403,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1588,
+    "tree_size": 782,
+    "path_length": 81
+  },
+  {
+    "id": 1750971257554,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2581,
+    "tree_size": 1515,
+    "path_length": 82
+  },
+  {
+    "id": 1750971257555,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1497,
+    "tree_size": 630,
+    "path_length": 79
+  },
+  {
+    "id": 1750971268072,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2171,
+    "tree_size": 1197,
+    "path_length": 86
+  },
+  {
+    "id": 1750971268073,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2117,
+    "tree_size": 920,
+    "path_length": 77
+  },
+  {
+    "id": 1750971277379,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2161,
+    "tree_size": 1250,
+    "path_length": 84
+  },
+  {
+    "id": 1750971277380,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2020,
+    "tree_size": 940,
+    "path_length": 77
+  },
+  {
+    "id": 1750971287295,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2369,
+    "tree_size": 1316,
+    "path_length": 79
+  },
+  {
+    "id": 1750971287296,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2641,
+    "tree_size": 1070,
+    "path_length": 80
+  },
+  {
+    "id": 1750971299626,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1971,
+    "tree_size": 1074,
+    "path_length": 79
+  },
+  {
+    "id": 1750971299627,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2543,
+    "tree_size": 1140,
+    "path_length": 81
+  },
+  {
+    "id": 1750971311003,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2647,
+    "tree_size": 1538,
+    "path_length": 80
+  },
+  {
+    "id": 1750971311004,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1804,
+    "tree_size": 804,
+    "path_length": 80
+  },
+  {
+    "id": 1750971323523,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2002,
+    "tree_size": 1035,
+    "path_length": 80
+  },
+  {
+    "id": 1750971323524,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1814,
+    "tree_size": 840,
+    "path_length": 80
+  },
+  {
+    "id": 1750971331211,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2538,
+    "tree_size": 1393,
+    "path_length": 76
+  },
+  {
+    "id": 1750971331212,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1737,
+    "tree_size": 795,
+    "path_length": 83
+  },
+  {
+    "id": 1750971341681,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2290,
+    "tree_size": 1225,
+    "path_length": 76
+  },
+  {
+    "id": 1750971341682,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1846,
+    "tree_size": 814,
+    "path_length": 77
+  },
+  {
+    "id": 1750971350954,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2656,
+    "tree_size": 1544,
+    "path_length": 79
+  },
+  {
+    "id": 1750971350955,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2308,
+    "tree_size": 1132,
+    "path_length": 84
+  },
+  {
+    "id": 1750971365408,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2429,
+    "tree_size": 1204,
+    "path_length": 81
+  },
+  {
+    "id": 1750971365409,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2050,
+    "tree_size": 903,
+    "path_length": 82
+  },
+  {
+    "id": 1750971376018,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2134,
+    "tree_size": 1244,
+    "path_length": 76
+  },
+  {
+    "id": 1750971376019,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2625,
+    "tree_size": 1196,
+    "path_length": 86
+  },
+  {
+    "id": 1750971388610,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1937,
+    "tree_size": 1059,
+    "path_length": 81
+  },
+  {
+    "id": 1750971388611,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1812,
+    "tree_size": 694,
+    "path_length": 81
+  },
+  {
+    "id": 1750971395728,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 1890,
+    "tree_size": 1089,
+    "path_length": 81
+  },
+  {
+    "id": 1750971395729,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2275,
+    "tree_size": 1038,
+    "path_length": 83
+  },
+  {
+    "id": 1750971406263,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2725,
+    "tree_size": 1452,
+    "path_length": 83
+  },
+  {
+    "id": 1750971406264,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2627,
+    "tree_size": 1073,
+    "path_length": 81
+  },
+  {
+    "id": 1750971421584,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2565,
+    "tree_size": 1376,
+    "path_length": 85
+  },
+  {
+    "id": 1750971421585,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2358,
+    "tree_size": 911,
+    "path_length": 77
+  },
+  {
+    "id": 1750971433397,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2759,
+    "tree_size": 1574,
+    "path_length": 94
+  },
+  {
+    "id": 1750971433398,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1922,
+    "tree_size": 785,
+    "path_length": 81
+  },
+  {
+    "id": 1750971447101,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2778,
+    "tree_size": 1487,
+    "path_length": 87
+  },
+  {
+    "id": 1750971447102,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1828,
+    "tree_size": 811,
+    "path_length": 80
+  },
+  {
+    "id": 1750971459434,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2178,
+    "tree_size": 1053,
+    "path_length": 78
+  },
+  {
+    "id": 1750971459435,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2006,
+    "tree_size": 952,
+    "path_length": 82
+  },
+  {
+    "id": 1750971468133,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2953,
+    "tree_size": 1430,
+    "path_length": 83
+  },
+  {
+    "id": 1750971468134,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2169,
+    "tree_size": 933,
+    "path_length": 74
+  },
+  {
+    "id": 1750971481395,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2836,
+    "tree_size": 1592,
+    "path_length": 79
+  },
+  {
+    "id": 1750971481396,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2286,
+    "tree_size": 930,
+    "path_length": 79
+  },
+  {
+    "id": 1750971495709,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2307,
+    "tree_size": 1248,
+    "path_length": 76
+  },
+  {
+    "id": 1750971495710,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1508,
+    "tree_size": 693,
+    "path_length": 77
+  },
+  {
+    "id": 1750971504405,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2133,
+    "tree_size": 1239,
+    "path_length": 76
+  },
+  {
+    "id": 1750971504406,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2299,
+    "tree_size": 912,
+    "path_length": 84
+  },
+  {
+    "id": 1750971514717,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2859,
+    "tree_size": 1748,
+    "path_length": 89
+  },
+  {
+    "id": 1750971514718,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2292,
+    "tree_size": 992,
+    "path_length": 84
+  },
+  {
+    "id": 1750971530313,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2108,
+    "tree_size": 1160,
+    "path_length": 79
+  },
+  {
+    "id": 1750971530314,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1991,
+    "tree_size": 898,
+    "path_length": 81
+  },
+  {
+    "id": 1750971539823,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2485,
+    "tree_size": 1327,
+    "path_length": 86
+  },
+  {
+    "id": 1750971539824,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1957,
+    "tree_size": 969,
+    "path_length": 87
+  },
+  {
+    "id": 1750971551505,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2658,
+    "tree_size": 1488,
+    "path_length": 79
+  },
+  {
+    "id": 1750971551506,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2024,
+    "tree_size": 814,
+    "path_length": 80
+  },
+  {
+    "id": 1750971563881,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2178,
+    "tree_size": 1184,
+    "path_length": 90
+  },
+  {
+    "id": 1750971563882,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1956,
+    "tree_size": 806,
+    "path_length": 78
+  },
+  {
+    "id": 1750971572733,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2908,
+    "tree_size": 1602,
+    "path_length": 81
+  },
+  {
+    "id": 1750971572734,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1416,
+    "tree_size": 556,
+    "path_length": 76
+  },
+  {
+    "id": 1750971585246,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2747,
+    "tree_size": 1504,
+    "path_length": 87
+  },
+  {
+    "id": 1750971585247,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2311,
+    "tree_size": 1031,
+    "path_length": 80
+  },
+  {
+    "id": 1750971599864,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3058,
+    "tree_size": 1645,
+    "path_length": 82
+  },
+  {
+    "id": 1750971599865,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2553,
+    "tree_size": 1124,
+    "path_length": 79
+  },
+  {
+    "id": 1750971616743,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2986,
+    "tree_size": 1593,
+    "path_length": 78
+  },
+  {
+    "id": 1750971616744,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2125,
+    "tree_size": 805,
+    "path_length": 86
+  },
+  {
+    "id": 1750971630502,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2251,
+    "tree_size": 1314,
+    "path_length": 79
+  },
+  {
+    "id": 1750971630503,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2898,
+    "tree_size": 1205,
+    "path_length": 82
+  },
+  {
+    "id": 1750971645878,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2481,
+    "tree_size": 1320,
+    "path_length": 77
+  },
+  {
+    "id": 1750971645879,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2398,
+    "tree_size": 953,
+    "path_length": 84
+  },
+  {
+    "id": 1750971659343,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2643,
+    "tree_size": 1424,
+    "path_length": 81
+  },
+  {
+    "id": 1750971659344,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2391,
+    "tree_size": 1056,
+    "path_length": 79
+  },
+  {
+    "id": 1750971673175,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2486,
+    "tree_size": 1236,
+    "path_length": 88
+  },
+  {
+    "id": 1750971673176,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1979,
+    "tree_size": 897,
+    "path_length": 77
+  },
+  {
+    "id": 1750971683516,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 3236,
+    "tree_size": 1779,
+    "path_length": 79
+  },
+  {
+    "id": 1750971683517,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 2340,
+    "tree_size": 1069,
+    "path_length": 81
+  },
+  {
+    "id": 1750971700517,
+    "scenario": "maze",
+    "algorithm": "RRT",
+    "iterations": 2232,
+    "tree_size": 1201,
+    "path_length": 82
+  },
+  {
+    "id": 1750971700518,
+    "scenario": "maze",
+    "algorithm": "WRRT",
+    "iterations": 1740,
+    "tree_size": 695,
+    "path_length": 79
+  }
+]
