@@ -5,7 +5,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from tqdm import tqdm  # Added tqdm import
 
 SCENARIOS_FILE = "scenarios.json"
-RUNS_PER_SCENARIO = 10_000
+RUNS_PER_SCENARIO = 1
 CHUNK_SIZE = 1000  # Number of runs per process (adjust as needed)
 
 def run_chunk(scenario_name, chunk_start, chunk_end):

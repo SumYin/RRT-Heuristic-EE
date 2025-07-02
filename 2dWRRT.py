@@ -63,7 +63,6 @@ class RRT:
         self.path = [start]
         self.solution_length = 0
         self.itterations = 0
-        self.node_list = [self.start]
 
 
     def pick_random_point(self):
@@ -99,7 +98,6 @@ class RRT:
             if is_legal_move(closest_node, new_point, self.obstacles):
                 self.path.append(new_point)
                 self.tree[new_point] = (closest_node, self.tree[closest_node][1] + 1)
-                self.node_list.append(new_point)
                 if interactive:
                     ax.plot([closest_node[0], new_point[0]], [closest_node[1], new_point[1]], 'b-', linewidth=0.5)
         
@@ -343,6 +341,8 @@ if __name__ == "__main__":
             # Run WRRT
             wrrt.solve(interactive=False)
             wrrt.graph(save=save, show=False)
+            if run == 0:
+                wrrt.report_heuristic_map()
             wrrt_data = {
                 'id': timestamp + 1,
                 'scenario': scenario_name,
