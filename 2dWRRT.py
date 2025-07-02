@@ -27,12 +27,6 @@ def pick_weighted_random_cell(heuristic_map):
     index = np.random.choice(len(flat_map), p=flat_map)
     return np.unravel_index(index, heuristic_map.shape)
 
-def euclidean_distance_heuristic(x, y, goal):
-    return np.sqrt(2) - np.sqrt((x - goal[0])**2 + (y - goal[1])**2)
-
-def pick_pure_random_point():
-    return (np.random.uniform(0, 1), np.random.uniform(0, 1))
-
 def is_legal_move(start, end, obstacles):
     x1, y1 = start
     x2, y2 = end
@@ -73,7 +67,7 @@ class RRT:
 
 
     def pick_random_point(self):
-        return pick_pure_random_point()
+        return (np.random.uniform(0, 1), np.random.uniform(0, 1))
 
     def find_closest_node(self, point):
         return min(self.tree.keys(), key=lambda node: np.linalg.norm(np.array(point) - np.array(node)))
