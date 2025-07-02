@@ -15246,5 +15246,757 @@
     "iterations": 4539,
     "tree_size": 539,
     "path_length": 62
+  },
+  {
+    "id": 1751391593326,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1965,
+    "tree_size": 422,
+    "path_length": 61
+  },
+  {
+    "id": 1751391593327,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3303,
+    "tree_size": 569,
+    "path_length": 64
+  },
+  {
+    "id": 1751391602721,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2045,
+    "tree_size": 366,
+    "path_length": 62
+  },
+  {
+    "id": 1751391602722,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4872,
+    "tree_size": 516,
+    "path_length": 59
+  },
+  {
+    "id": 1751391617025,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1437,
+    "tree_size": 470,
+    "path_length": 59
+  },
+  {
+    "id": 1751391617026,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4212,
+    "tree_size": 484,
+    "path_length": 59
+  },
+  {
+    "id": 1751391628678,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1429,
+    "tree_size": 311,
+    "path_length": 58
+  },
+  {
+    "id": 1751391628679,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3451,
+    "tree_size": 351,
+    "path_length": 57
+  },
+  {
+    "id": 1751391635760,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2113,
+    "tree_size": 453,
+    "path_length": 63
+  },
+  {
+    "id": 1751391635761,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5027,
+    "tree_size": 564,
+    "path_length": 65
+  },
+  {
+    "id": 1751391649283,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1631,
+    "tree_size": 391,
+    "path_length": 65
+  },
+  {
+    "id": 1751391649284,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5151,
+    "tree_size": 539,
+    "path_length": 64
+  },
+  {
+    "id": 1751391663868,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2043,
+    "tree_size": 312,
+    "path_length": 59
+  },
+  {
+    "id": 1751391663869,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4032,
+    "tree_size": 398,
+    "path_length": 64
+  },
+  {
+    "id": 1751391673990,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2071,
+    "tree_size": 567,
+    "path_length": 65
+  },
+  {
+    "id": 1751391673991,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4986,
+    "tree_size": 471,
+    "path_length": 59
+  },
+  {
+    "id": 1751391689407,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1339,
+    "tree_size": 310,
+    "path_length": 62
+  },
+  {
+    "id": 1751391689408,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3864,
+    "tree_size": 417,
+    "path_length": 64
+  },
+  {
+    "id": 1751391698507,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2450,
+    "tree_size": 503,
+    "path_length": 67
+  },
+  {
+    "id": 1751391698508,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 7445,
+    "tree_size": 750,
+    "path_length": 64
+  },
+  {
+    "id": 1751391724639,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2219,
+    "tree_size": 475,
+    "path_length": 62
+  },
+  {
+    "id": 1751391724640,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4861,
+    "tree_size": 474,
+    "path_length": 61
+  },
+  {
+    "id": 1751391738631,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1998,
+    "tree_size": 486,
+    "path_length": 61
+  },
+  {
+    "id": 1751391738632,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5217,
+    "tree_size": 494,
+    "path_length": 62
+  },
+  {
+    "id": 1751391754227,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2048,
+    "tree_size": 581,
+    "path_length": 65
+  },
+  {
+    "id": 1751391754228,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3277,
+    "tree_size": 567,
+    "path_length": 60
+  },
+  {
+    "id": 1751391764273,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2156,
+    "tree_size": 383,
+    "path_length": 59
+  },
+  {
+    "id": 1751391764274,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5402,
+    "tree_size": 583,
+    "path_length": 63
+  },
+  {
+    "id": 1751391780003,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2796,
+    "tree_size": 560,
+    "path_length": 70
+  },
+  {
+    "id": 1751391780004,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 2959,
+    "tree_size": 371,
+    "path_length": 59
+  },
+  {
+    "id": 1751391790831,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2141,
+    "tree_size": 433,
+    "path_length": 64
+  },
+  {
+    "id": 1751391790832,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5298,
+    "tree_size": 543,
+    "path_length": 62
+  },
+  {
+    "id": 1751391806605,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1954,
+    "tree_size": 526,
+    "path_length": 68
+  },
+  {
+    "id": 1751391806606,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4143,
+    "tree_size": 396,
+    "path_length": 59
+  },
+  {
+    "id": 1751391818489,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2480,
+    "tree_size": 766,
+    "path_length": 63
+  },
+  {
+    "id": 1751391818490,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5003,
+    "tree_size": 583,
+    "path_length": 63
+  },
+  {
+    "id": 1751391834914,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2898,
+    "tree_size": 544,
+    "path_length": 61
+  },
+  {
+    "id": 1751391834915,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4226,
+    "tree_size": 480,
+    "path_length": 61
+  },
+  {
+    "id": 1751391850218,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1908,
+    "tree_size": 451,
+    "path_length": 63
+  },
+  {
+    "id": 1751391850219,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4060,
+    "tree_size": 459,
+    "path_length": 56
+  },
+  {
+    "id": 1751391861617,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2639,
+    "tree_size": 398,
+    "path_length": 65
+  },
+  {
+    "id": 1751391861618,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5235,
+    "tree_size": 553,
+    "path_length": 61
+  },
+  {
+    "id": 1751391877117,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2447,
+    "tree_size": 414,
+    "path_length": 67
+  },
+  {
+    "id": 1751391877118,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3161,
+    "tree_size": 311,
+    "path_length": 58
+  },
+  {
+    "id": 1751391886173,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1952,
+    "tree_size": 426,
+    "path_length": 62
+  },
+  {
+    "id": 1751391886174,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4339,
+    "tree_size": 493,
+    "path_length": 59
+  },
+  {
+    "id": 1751391898658,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2470,
+    "tree_size": 496,
+    "path_length": 67
+  },
+  {
+    "id": 1751391898659,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4603,
+    "tree_size": 570,
+    "path_length": 66
+  },
+  {
+    "id": 1751391913434,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2263,
+    "tree_size": 510,
+    "path_length": 62
+  },
+  {
+    "id": 1751391913435,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4670,
+    "tree_size": 505,
+    "path_length": 55
+  },
+  {
+    "id": 1751391927189,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1396,
+    "tree_size": 501,
+    "path_length": 63
+  },
+  {
+    "id": 1751391927190,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3487,
+    "tree_size": 478,
+    "path_length": 58
+  },
+  {
+    "id": 1751391936081,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2314,
+    "tree_size": 699,
+    "path_length": 65
+  },
+  {
+    "id": 1751391936082,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3781,
+    "tree_size": 387,
+    "path_length": 59
+  },
+  {
+    "id": 1751391948228,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2470,
+    "tree_size": 475,
+    "path_length": 66
+  },
+  {
+    "id": 1751391948229,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4460,
+    "tree_size": 486,
+    "path_length": 61
+  },
+  {
+    "id": 1751391961479,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2665,
+    "tree_size": 543,
+    "path_length": 67
+  },
+  {
+    "id": 1751391961480,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5055,
+    "tree_size": 457,
+    "path_length": 64
+  },
+  {
+    "id": 1751391977292,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2440,
+    "tree_size": 456,
+    "path_length": 62
+  },
+  {
+    "id": 1751391977293,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5543,
+    "tree_size": 619,
+    "path_length": 66
+  },
+  {
+    "id": 1751391993844,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1996,
+    "tree_size": 504,
+    "path_length": 66
+  },
+  {
+    "id": 1751391993845,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4670,
+    "tree_size": 546,
+    "path_length": 56
+  },
+  {
+    "id": 1751392006479,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2240,
+    "tree_size": 506,
+    "path_length": 65
+  },
+  {
+    "id": 1751392006480,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5105,
+    "tree_size": 473,
+    "path_length": 58
+  },
+  {
+    "id": 1751392021950,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2006,
+    "tree_size": 423,
+    "path_length": 63
+  },
+  {
+    "id": 1751392021951,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3661,
+    "tree_size": 391,
+    "path_length": 59
+  },
+  {
+    "id": 1751392031173,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1376,
+    "tree_size": 413,
+    "path_length": 64
+  },
+  {
+    "id": 1751392031174,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4577,
+    "tree_size": 496,
+    "path_length": 61
+  },
+  {
+    "id": 1751392043503,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2027,
+    "tree_size": 530,
+    "path_length": 62
+  },
+  {
+    "id": 1751392043504,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3965,
+    "tree_size": 438,
+    "path_length": 60
+  },
+  {
+    "id": 1751392054598,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2434,
+    "tree_size": 516,
+    "path_length": 64
+  },
+  {
+    "id": 1751392054599,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4415,
+    "tree_size": 514,
+    "path_length": 61
+  },
+  {
+    "id": 1751392068494,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2755,
+    "tree_size": 492,
+    "path_length": 58
+  },
+  {
+    "id": 1751392068495,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3283,
+    "tree_size": 363,
+    "path_length": 60
+  },
+  {
+    "id": 1751392079524,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2679,
+    "tree_size": 456,
+    "path_length": 60
+  },
+  {
+    "id": 1751392079525,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5988,
+    "tree_size": 679,
+    "path_length": 64
+  },
+  {
+    "id": 1751392098706,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2456,
+    "tree_size": 624,
+    "path_length": 69
+  },
+  {
+    "id": 1751392098707,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3441,
+    "tree_size": 423,
+    "path_length": 63
+  },
+  {
+    "id": 1751392109983,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2904,
+    "tree_size": 526,
+    "path_length": 64
+  },
+  {
+    "id": 1751392109984,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 3617,
+    "tree_size": 415,
+    "path_length": 64
+  },
+  {
+    "id": 1751392121444,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1672,
+    "tree_size": 560,
+    "path_length": 64
+  },
+  {
+    "id": 1751392121445,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 2563,
+    "tree_size": 387,
+    "path_length": 58
+  },
+  {
+    "id": 1751392128991,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1743,
+    "tree_size": 512,
+    "path_length": 61
+  },
+  {
+    "id": 1751392128992,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 6213,
+    "tree_size": 581,
+    "path_length": 62
+  },
+  {
+    "id": 1751392148276,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1396,
+    "tree_size": 318,
+    "path_length": 64
+  },
+  {
+    "id": 1751392148277,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4980,
+    "tree_size": 456,
+    "path_length": 64
+  },
+  {
+    "id": 1751392160153,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2431,
+    "tree_size": 424,
+    "path_length": 57
+  },
+  {
+    "id": 1751392160154,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4499,
+    "tree_size": 458,
+    "path_length": 62
+  },
+  {
+    "id": 1751392173803,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 1896,
+    "tree_size": 616,
+    "path_length": 56
+  },
+  {
+    "id": 1751392173804,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 2624,
+    "tree_size": 298,
+    "path_length": 57
+  },
+  {
+    "id": 1751392181815,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2390,
+    "tree_size": 721,
+    "path_length": 64
+  },
+  {
+    "id": 1751392181816,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 5261,
+    "tree_size": 510,
+    "path_length": 65
+  },
+  {
+    "id": 1751392199707,
+    "scenario": "backtrack_required",
+    "algorithm": "RRT",
+    "iterations": 2813,
+    "tree_size": 725,
+    "path_length": 65
+  },
+  {
+    "id": 1751392199708,
+    "scenario": "backtrack_required",
+    "algorithm": "WRRT",
+    "iterations": 4077,
+    "tree_size": 543,
+    "path_length": 63
   }
 ]
