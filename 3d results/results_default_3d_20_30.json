@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1755513534534,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 0.48641371726989746,
+    "iterations": 579,
+    "tree_size": 463,
+    "path_length": 42,
+    "path_distance": 2.1000000000000005
+  },
+  {
+    "id": 1755513534535,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.09815406799316406,
+    "iterations": 209,
+    "tree_size": 173,
+    "path_length": 38,
+    "path_distance": 1.9000000000000006
+  },
+  {
+    "id": 1755513535982,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 1.554490089416504,
+    "iterations": 982,
+    "tree_size": 855,
+    "path_length": 42,
+    "path_distance": 2.100000000000001
+  },
+  {
+    "id": 1755513535983,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.33414244651794434,
+    "iterations": 453,
+    "tree_size": 354,
+    "path_length": 38,
+    "path_distance": 1.900000000000001
+  },
+  {
+    "id": 1755513538859,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 1.6020801067352295,
+    "iterations": 1029,
+    "tree_size": 865,
+    "path_length": 51,
+    "path_distance": 2.542416981941243
+  },
+  {
+    "id": 1755513538860,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.1681523323059082,
+    "iterations": 297,
+    "tree_size": 252,
+    "path_length": 43,
+    "path_distance": 2.1500000000000004
+  },
+  {
+    "id": 1755513541340,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 0.36356449127197266,
+    "iterations": 523,
+    "tree_size": 408,
+    "path_length": 43,
+    "path_distance": 2.1500000000000004
+  },
+  {
+    "id": 1755513541341,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.11235761642456055,
+    "iterations": 255,
+    "tree_size": 198,
+    "path_length": 41,
+    "path_distance": 2.050000000000001
+  },
+  {
+    "id": 1755513542419,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 0.4148373603820801,
+    "iterations": 547,
+    "tree_size": 420,
+    "path_length": 43,
+    "path_distance": 2.1500000000000004
+  },
+  {
+    "id": 1755513542420,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.6173264980316162,
+    "iterations": 643,
+    "tree_size": 526,
+    "path_length": 38,
+    "path_distance": 1.9000000000000008
+  },
+  {
+    "id": 1755513544052,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 0.21943116188049316,
+    "iterations": 430,
+    "tree_size": 311,
+    "path_length": 40,
+    "path_distance": 2.000000000000001
+  },
+  {
+    "id": 1755513544053,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 1.4443271160125732,
+    "iterations": 928,
+    "tree_size": 834,
+    "path_length": 42,
+    "path_distance": 2.096011347818734
+  },
+  {
+    "id": 1755513546701,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 0.48712611198425293,
+    "iterations": 586,
+    "tree_size": 469,
+    "path_length": 42,
+    "path_distance": 2.1000000000000005
+  },
+  {
+    "id": 1755513546702,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.1430063247680664,
+    "iterations": 259,
+    "tree_size": 238,
+    "path_length": 38,
+    "path_distance": 1.9000000000000004
+  },
+  {
+    "id": 1755513547954,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 0.15472126007080078,
+    "iterations": 318,
+    "tree_size": 263,
+    "path_length": 38,
+    "path_distance": 1.8968434297159997
+  },
+  {
+    "id": 1755513547955,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.1072397232055664,
+    "iterations": 228,
+    "tree_size": 173,
+    "path_length": 37,
+    "path_distance": 1.8500000000000008
+  },
+  {
+    "id": 1755513548684,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 1.1944589614868164,
+    "iterations": 875,
+    "tree_size": 771,
+    "path_length": 45,
+    "path_distance": 2.223019451599841
+  },
+  {
+    "id": 1755513548685,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.2181100845336914,
+    "iterations": 364,
+    "tree_size": 286,
+    "path_length": 41,
+    "path_distance": 2.0500000000000007
+  },
+  {
+    "id": 1755513550724,
+    "scenario": "default_3d",
+    "algorithm": "RRT3D",
+    "execution_time": 0.6967658996582031,
+    "iterations": 741,
+    "tree_size": 548,
+    "path_length": 39,
+    "path_distance": 1.950000000000001
+  },
+  {
+    "id": 1755513550725,
+    "scenario": "default_3d",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.27768659591674805,
+    "iterations": 433,
+    "tree_size": 338,
+    "path_length": 38,
+    "path_distance": 1.9000000000000008
+  }
+]

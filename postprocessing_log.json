@@ -1,0 +1,158 @@
+{
+    "per_scenario": {
+        "backtrack_required": {
+            "RRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "2145.93",
+                "Avg Path Length": "62.95",
+                "Avg Tree Size": "477.66"
+            },
+            "WRRT": {
+                "Success Rate": "99.99% (9999/10000)",
+                "Avg Iterations": "4663.38",
+                "Avg Path Length": "61.64",
+                "Avg Tree Size": "497.19"
+            }
+        },
+        "empty_space": {
+            "RRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "324.61",
+                "Avg Path Length": "33.32",
+                "Avg Tree Size": "321.65"
+            },
+            "WRRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "169.59",
+                "Avg Path Length": "32.31",
+                "Avg Tree Size": "170.05"
+            }
+        },
+        "maze": {
+            "RRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "2502.69",
+                "Avg Path Length": "82.73",
+                "Avg Tree Size": "1352.98"
+            },
+            "WRRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "2068.04",
+                "Avg Path Length": "81.55",
+                "Avg Tree Size": "896.42"
+            }
+        },
+        "multiple_narrow_passage": {
+            "RRT": {
+                "Success Rate": "99.99% (9999/10000)",
+                "Avg Iterations": "822.31",
+                "Avg Path Length": "20.89",
+                "Avg Tree Size": "450.39"
+            },
+            "WRRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "520.02",
+                "Avg Path Length": "20.24",
+                "Avg Tree Size": "208.43"
+            }
+        },
+        "multiple_paths": {
+            "RRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "624.54",
+                "Avg Path Length": "39.15",
+                "Avg Tree Size": "364.80"
+            },
+            "WRRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "444.45",
+                "Avg Path Length": "39.19",
+                "Avg Tree Size": "195.16"
+            }
+        },
+        "multiple_shifted_narrow_passage": {
+            "RRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "784.04",
+                "Avg Path Length": "24.39",
+                "Avg Tree Size": "425.08"
+            },
+            "WRRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "537.77",
+                "Avg Path Length": "23.93",
+                "Avg Tree Size": "206.44"
+            }
+        },
+        "narrow_passage": {
+            "RRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "524.63",
+                "Avg Path Length": "21.62",
+                "Avg Tree Size": "309.34"
+            },
+            "WRRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "331.63",
+                "Avg Path Length": "20.71",
+                "Avg Tree Size": "145.46"
+            }
+        },
+        "opposite_corners": {
+            "RRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "258.41",
+                "Avg Path Length": "28.84",
+                "Avg Tree Size": "251.68"
+            },
+            "WRRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "130.76",
+                "Avg Path Length": "27.15",
+                "Avg Tree Size": "127.48"
+            }
+        },
+        "single_wall": {
+            "RRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "315.62",
+                "Avg Path Length": "36.44",
+                "Avg Tree Size": "231.21"
+            },
+            "WRRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "299.32",
+                "Avg Path Length": "36.37",
+                "Avg Tree Size": "158.84"
+            }
+        },
+        "very_close": {
+            "RRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "33.42",
+                "Avg Path Length": "6.62",
+                "Avg Tree Size": "34.25"
+            },
+            "WRRT": {
+                "Success Rate": "100.00% (10000/10000)",
+                "Avg Iterations": "22.28",
+                "Avg Path Length": "6.72",
+                "Avg Tree Size": "23.18"
+            }
+        }
+    },
+    "overall": {
+        "RRT": {
+            "Overall Success Rate": "100.00% (99999/100000)",
+            "Overall Avg Iterations": "833.62",
+            "Overall Avg Path Length": "35.70",
+            "Overall Avg Tree Size": "421.90"
+        },
+        "WRRT": {
+            "Overall Success Rate": "100.00% (99999/100000)",
+            "Overall Avg Iterations": "918.68",
+            "Overall Avg Path Length": "34.98",
+            "Overall Avg Tree Size": "262.86"
+        }
+    }
+}

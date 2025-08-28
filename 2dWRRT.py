@@ -3,8 +3,6 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')  # Use a non-GUI backend suitable for scripts
 import matplotlib.pyplot as plt
-from matplotlib.offsetbox import OffsetImage, AnnotationBbox
-import scipy as sp
 from tqdm import tqdm
 import time
 import json
@@ -18,8 +16,16 @@ maxium_iterations = 10000
 # Define utility functions
 def normalize_to_probability(heuristic_map):
     min_val, max_val = np.min(heuristic_map), np.max(heuristic_map)
-    linear_norm = (heuristic_map - min_val) / (max_val - min_val)
-    return linear_norm / np.sum(linear_norm)
+    if min_val == max_val: # Avoid division by zero if map is flat
+        linear_norm = np.ones_like(heuristic_map)
+    else:
+        linear_norm = (heuristic_map - min_val) / (max_val - min_val)
+    
+    total = np.sum(linear_norm)
+    if total == 0: # Avoid division by zero if all values are zero after normalization
+        return np.ones_like(linear_norm) / linear_norm.size
+        
+    return linear_norm / total
 
 def pick_weighted_random_cell(heuristic_map):
     normalized_map = normalize_to_probability(heuristic_map)
@@ -62,8 +68,7 @@ class RRT:
         self.tree = {start: (None, 0)}
         self.path = [start]
         self.solution_length = 0
-        self.itterations = 0
-
+        self.iterations = 0
 
     def pick_random_point(self):
         return (np.random.uniform(0, 1), np.random.uniform(0, 1))
@@ -87,8 +92,8 @@ class RRT:
             for (x_min, y_min), (x_max, y_max) in self.obstacles:
                 ax.fill([x_min, x_max, x_max, x_min], [y_min, y_min, y_max, y_max], 'k', alpha=0.5)
 
-        while np.linalg.norm(np.array(self.path[-1]) - np.array(self.goal)) > self.goal_range and self.itterations < maxium_iterations:
-            self.itterations += 1
+        while np.linalg.norm(np.array(self.path[-1]) - np.array(self.goal)) > self.goal_range and self.iterations < maxium_iterations:
+            self.iterations += 1
             new_point = self.pick_random_point()
             # Find the closest node using KDTree or brute force
             closest_node = self.find_closest_node(new_point)
@@ -105,7 +110,7 @@ class RRT:
             plt.ioff() 
             plt.close()  
 
-        if self.itterations >= maxium_iterations:
+        if self.iterations >= maxium_iterations:
             print("Maximum iterations reached without finding a path.")
             self.solution_length = -1
 
@@ -118,7 +123,7 @@ class RRT:
 
     def report(self):
         # Only print iteration count
-        print(f"Iterations: {self.itterations}")
+        print(f"Iterations: {self.iterations}")
 
     def graph(self, save=False, show=True):
 
@@ -209,6 +214,11 @@ class WRRT(RRT):
         super().__init__(start, goal, goal_range, distance_unit, obstacles)
         self.map_resolution = map_resolution
         self.heuristic_map = self.load_or_generate_heuristic_map(scenario_name)
+        # Pre-calculate the sampling probabilities once.
+        normalized_heuristic = normalize_to_probability(self.heuristic_map)
+        self.flat_map_size = normalized_heuristic.size
+        # Set up alias method for O(1) sampling
+        self.alias_table, self.prob_table = self.setup_alias_method(normalized_heuristic.flatten())
 
     def heuristic_map_filename(self, scenario_name):
         if scenario_name is None:
@@ -233,11 +243,60 @@ class WRRT(RRT):
         heuristicMap = np.sqrt(2) - np.sqrt((xx - self.goal[0])**2 + (yy - self.goal[1])**2)
         return heuristicMap
 
+    def setup_alias_method(self, probs):
+        n = len(probs)
+        prob_table = np.zeros(n)
+        alias_table = np.zeros(n, dtype=np.int32)
+        
+        scaled_probs = probs * n
+        
+        small = []
+        large = []
+        
+        for i in range(n):
+            if scaled_probs[i] < 1.0:
+                small.append(i)
+            else:
+                large.append(i)
+        
+        while small and large:
+            s = small.pop()
+            l = large.pop()
+            
+            prob_table[s] = scaled_probs[s]
+            alias_table[s] = l
+            
+            scaled_probs[l] = scaled_probs[l] - (1.0 - scaled_probs[s])
+            
+            if scaled_probs[l] < 1.0:
+                small.append(l)
+            else:
+                large.append(l)
+        
+        while large:
+            prob_table[large.pop()] = 1.0
+        
+        while small:
+            prob_table[small.pop()] = 1.0
+        
+        return alias_table, prob_table
+
     def pick_random_point(self):
-        cell = pick_weighted_random_cell(self.heuristic_map)
-        i, j = cell
-        x = np.random.uniform(j/self.map_resolution, (j+1)/self.map_resolution)
-        y = np.random.uniform(i/self.map_resolution, (i+1)/self.map_resolution)
+        i = np.random.randint(0, self.flat_map_size)
+        if np.random.random() < self.prob_table[i]:
+            index = i
+        else:
+            index = self.alias_table[i]
+        
+        i, j = np.unravel_index(index, self.heuristic_map.shape)
+        
+        x_cell_start = j / self.map_resolution
+        y_cell_start = i / self.map_resolution
+        x_cell_end = (j + 1) / self.map_resolution
+        y_cell_end = (i + 1) / self.map_resolution
+
+        x = np.random.uniform(x_cell_start, x_cell_end)
+        y = np.random.uniform(y_cell_start, y_cell_end)
         return (x, y)
 
 
@@ -332,7 +391,7 @@ if __name__ == "__main__":
                 'id': timestamp,
                 'scenario': scenario_name,
                 'algorithm': 'RRT',
-                'iterations': rrt.itterations,
+                'iterations': rrt.iterations,
                 'tree_size': len(rrt.path),
                 'path_length': rrt.solution_length
             }
@@ -347,7 +406,7 @@ if __name__ == "__main__":
                 'id': timestamp + 1,
                 'scenario': scenario_name,
                 'algorithm': 'WRRT',
-                'iterations': wrrt.itterations,
+                'iterations': wrrt.iterations,
                 'tree_size': len(wrrt.path),
                 'path_length': wrrt.solution_length
             }

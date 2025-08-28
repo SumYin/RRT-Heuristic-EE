@@ -1,9 +1,35 @@
-# RRT-Heuristic-EE
+# RRT with Goal-Based Heuristics
 
-## Introduction
+This project investigates the impact of using a goal-based Euclidean distance heuristic to guide the sampling process of the Rapidly-Exploring Random Tree (RRT) algorithm. It compares the performance of a standard RRT with a weighted variant (WRRT) across various 2D and 3D scenarios.
 
-This project implements the Rapidly-exploring Random Tree (RRT) algorithm for path planning in a 2D environment. The goal is to navigate from a start point to a goal point while avoiding obstacles. The environment is represented as a 1x1 grid, and the heuristic map is used to guide the path planning process. The project includes functions to generate heuristic maps, normalize them to probability distributions, and select points based on these distributions to add a greedy aspect to the path planning algorithm, improving its efficiency.
 
-We aim to introduce a heuristic approach to the RRT algorithm, which will help in selecting the next point to explore based on the heuristic map. This will allow the algorithm to focus on areas of the environment that are more likely to lead to a successful path to the goal.
+### 2D Performance Metrics
 
-This is for a IB Computer Science EE project, and the code is written in Python. The project is structured to allow for easy modification and testing of different heuristic approaches.
+| Average Iterations | Average Tree Size |
+| :---: | :---: |
+| ![Average Iterations](visualization_graphics/2d_avg_iterations.png) | ![Average Tree Size](visualization_graphics/2d_avg_tree_size.png) |
+| **Average Path Length** | **Success Rate** |
+| ![Average Path Length](visualization_graphics/2d_avg_path_length.png) | ![Success Rate](visualization_graphics/2d_success_rate.png) |
+## 3D Visualizations and Results
+
+Below are the results and visualizations from the 3D experiments.
+
+### 3D Performance Metrics
+
+| Average Iterations | Average Tree Size |
+| :---: | :---: |
+| ![Average Iterations](visualization_graphics/3d_avg_iterations.png) | ![Average Tree Size](visualization_graphics/3d_avg_tree_size.png) |
+| **Average Path Length** | **Success Rate** |
+| ![Average Path Length](visualization_graphics/3d_avg_path_length.png) | ![Success Rate](visualization_graphics/3d_success_rate.png) |
+
+### Default 3D Scenario
+
+| Scenario | RRT Path | WRRT Path |
+| :---: | :---: | :---: |
+| ![Default 3D Scenario](visualization_graphics/scenario_default_3d_rotating.gif) | ![RRT on Default 3D](visualization_graphics/RRT3D_path_default_3d_rotating.gif) | ![WRRT on Default 3D](visualization_graphics/WRRT3D_path_default_3d_rotating.gif) |
+
+### Center Hole 3D Scenario
+
+| Scenario | RRT Path | WRRT Path |
+| :---: | :---: | :---: |
+| ![Center Hole Scenario](visualization_graphics/scenario_center_hole_rotating.gif) | ![RRT on Center Hole](visualization_graphics/RRT3D_path_center_hole_rotating.gif) | ![WRRT on Center Hole](visualization_graphics/WRRT3D_path_center_hole_rotating.gif) |

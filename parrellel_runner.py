@@ -2,18 +2,17 @@ import subprocess
 import os
 import json
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from tqdm import tqdm  # Added tqdm import
-
+from tqdm import tqdm 
 SCENARIOS_FILE = "scenarios.json"
 RUNS_PER_SCENARIO = 1
-CHUNK_SIZE = 1000  # Number of runs per process (adjust as needed)
+CHUNK_SIZE = 1
 
 def run_chunk(scenario_name, chunk_start, chunk_end):
     # Use the .venv Python interpreter
     venv_python = os.path.join(os.getcwd(), ".venv", "Scripts", "python.exe")
     output_file = f"results_{scenario_name}_{chunk_start}_{chunk_end}.json"
     cmd = [
-        venv_python, "2dWRRT.py",  # Use CUDA-accelerated version
+        venv_python, "2dWRRT.py", 
         "--scenario", scenario_name,
         "--start", str(chunk_start),
         "--end", str(chunk_end),
@@ -24,7 +23,6 @@ def run_chunk(scenario_name, chunk_start, chunk_end):
     return output_file
 
 def main():
-    # Load scenarios
     with open(SCENARIOS_FILE) as f:
         scenarios = json.load(f)
 
@@ -50,7 +48,6 @@ def main():
         print("Aborted by user.")
         return
 
-    # Run in parallel
     with ProcessPoolExecutor(max_workers=os.cpu_count()) as executor:
         futures = [executor.submit(run_chunk, *job) for job in jobs]
         with tqdm(total=len(futures), desc="Jobs completed") as pbar:

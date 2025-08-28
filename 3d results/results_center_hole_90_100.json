@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1755513535110,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 2.484860897064209,
+    "iterations": 1203,
+    "tree_size": 1140,
+    "path_length": 49,
+    "path_distance": 2.4453015165806713
+  },
+  {
+    "id": 1755513535111,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.22187519073486328,
+    "iterations": 307,
+    "tree_size": 291,
+    "path_length": 36,
+    "path_distance": 1.8000000000000005
+  },
+  {
+    "id": 1755513538762,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 1.183316707611084,
+    "iterations": 965,
+    "tree_size": 711,
+    "path_length": 43,
+    "path_distance": 2.150000000000001
+  },
+  {
+    "id": 1755513538763,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.2368149757385254,
+    "iterations": 337,
+    "tree_size": 319,
+    "path_length": 38,
+    "path_distance": 1.9000000000000008
+  },
+  {
+    "id": 1755513541087,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 0.4941713809967041,
+    "iterations": 551,
+    "tree_size": 485,
+    "path_length": 36,
+    "path_distance": 1.800000000000001
+  },
+  {
+    "id": 1755513541088,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.47449660301208496,
+    "iterations": 494,
+    "tree_size": 453,
+    "path_length": 36,
+    "path_distance": 1.800000000000001
+  },
+  {
+    "id": 1755513542745,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 1.5600366592407227,
+    "iterations": 1106,
+    "tree_size": 855,
+    "path_length": 41,
+    "path_distance": 2.0500000000000007
+  },
+  {
+    "id": 1755513542746,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.23074579238891602,
+    "iterations": 326,
+    "tree_size": 310,
+    "path_length": 36,
+    "path_distance": 1.8000000000000007
+  },
+  {
+    "id": 1755513545252,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 7.133381605148315,
+    "iterations": 2702,
+    "tree_size": 1562,
+    "path_length": 55,
+    "path_distance": 2.7499999999999987
+  },
+  {
+    "id": 1755513545253,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.11010169982910156,
+    "iterations": 241,
+    "tree_size": 190,
+    "path_length": 38,
+    "path_distance": 1.900000000000001
+  },
+  {
+    "id": 1755513553538,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 1.1885275840759277,
+    "iterations": 1001,
+    "tree_size": 793,
+    "path_length": 43,
+    "path_distance": 2.1500000000000004
+  },
+  {
+    "id": 1755513553539,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.35086584091186523,
+    "iterations": 485,
+    "tree_size": 455,
+    "path_length": 37,
+    "path_distance": 1.8372462380020358
+  },
+  {
+    "id": 1755513555639,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 1.3581383228302002,
+    "iterations": 1146,
+    "tree_size": 974,
+    "path_length": 43,
+    "path_distance": 2.1257319376718193
+  },
+  {
+    "id": 1755513555640,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.8880200386047363,
+    "iterations": 844,
+    "tree_size": 804,
+    "path_length": 39,
+    "path_distance": 1.950000000000001
+  },
+  {
+    "id": 1755513558732,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 0.46153736114501953,
+    "iterations": 723,
+    "tree_size": 568,
+    "path_length": 41,
+    "path_distance": 2.0147093970527057
+  },
+  {
+    "id": 1755513558733,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.3764784336090088,
+    "iterations": 554,
+    "tree_size": 520,
+    "path_length": 36,
+    "path_distance": 1.8000000000000007
+  },
+  {
+    "id": 1755513559988,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 2.401228189468384,
+    "iterations": 1847,
+    "tree_size": 1325,
+    "path_length": 51,
+    "path_distance": 2.5232907544551586
+  },
+  {
+    "id": 1755513559989,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.2348778247833252,
+    "iterations": 548,
+    "tree_size": 347,
+    "path_length": 41,
+    "path_distance": 2.0500000000000007
+  },
+  {
+    "id": 1755513563127,
+    "scenario": "center_hole",
+    "algorithm": "RRT3D",
+    "execution_time": 0.920619010925293,
+    "iterations": 996,
+    "tree_size": 910,
+    "path_length": 36,
+    "path_distance": 1.776186668488516
+  },
+  {
+    "id": 1755513563128,
+    "scenario": "center_hole",
+    "algorithm": "WRRT3D",
+    "execution_time": 0.1757819652557373,
+    "iterations": 345,
+    "tree_size": 339,
+    "path_length": 35,
+    "path_distance": 1.7500000000000007
+  }
+]

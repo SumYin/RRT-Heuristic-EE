@@ -99,9 +99,6 @@ def line_segment_intersects_cube(p1, p2, cube_min, cube_max):
             if t_near > t_far:
                 return False
 
-    # The line intersects the cube's volume. Now check if the intersection
-    # overlaps with the line segment's parameter range [0, 1].
-    # Intersection occurs if the interval [t_near, t_far] overlaps with [0, 1]
     return t_near <= 1 and t_far >= 0
 
 
@@ -352,8 +349,6 @@ class RRT3D:
         norm = mpl.colors.Normalize(vmin=0, vmax=len(edges))
         sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
         sm.set_array([])
-        # cbar = plt.colorbar(sm, ax=ax, label="Edge Addition Order", fraction=0.03, pad=0.1) # Adjust fraction/pad
-        # cbar.ax.tick_params(labelsize=10)
 
         ax.legend()
         ax.view_init(elev=20., azim=-65)
@@ -386,7 +381,7 @@ class WRRT3D(RRT3D):
         cell_centers_y = (np.arange(res) + 0.5) / res
         cell_centers_z = (np.arange(res) + 0.5) / res
 
-        for i in tqdm(range(res), desc="Heuristic Map Gen"): # x index
+        for i in tqdm(range(res), desc="Heuristic Map Gen"): 
             for j in range(res): # y index
                 for k in range(res): # z index
                     cell_x = cell_centers_x[i]
@@ -401,7 +396,7 @@ class WRRT3D(RRT3D):
     def pick_random_point(self):
         """Picks a random point biased by the heuristic map."""
         try:
-             i, j, k = pick_weighted_random_cell(self.heuristic_map) # (x, y, z) indices
+             i, j, k = pick_weighted_random_cell(self.heuristic_map) 
         except Exception as e:
              print(f"Error picking weighted cell: {e}. Falling back to uniform random point.")
              return pick_pure_random_point_3d()
@@ -433,7 +428,7 @@ class WRRT3D(RRT3D):
 
         fig = plt.figure(figsize=(12, 10))
         ax = fig.add_subplot(111, projection='3d')
-        ax.set_box_aspect([1, 1, 1])  # Equal aspect ratio
+        ax.set_box_aspect([1, 1, 1]) 
 
         scatter = ax.scatter(
             X.flatten(), Y.flatten(), Z.flatten(),
@@ -479,7 +474,7 @@ if __name__ == "__main__":
     if not os.path.exists('graphs'):
         os.makedirs('graphs')
 
-    num_runs = 1 # Number of runs per scenario per algorithm
+    num_runs = 1 
 
     for scenario_name, scenario in scenarios.items():
         print(f"\n===== Running Scenario: {scenario_name} =====")

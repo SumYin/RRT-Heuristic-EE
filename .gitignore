@@ -170,4 +170,4 @@ avg_*
 /ignore
 
 #ignore all files in the heuristic_maps directory and the folder itself
-heuristic_maps/
+/heuristic_maps
