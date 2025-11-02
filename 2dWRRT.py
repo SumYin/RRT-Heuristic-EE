@@ -1,7 +1,6 @@
-# Import necessary libraries
 import numpy as np
 import matplotlib
-matplotlib.use('Agg')  # Use a non-GUI backend suitable for scripts
+matplotlib.use('Agg') 
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 import time
@@ -13,16 +12,15 @@ import argparse
 
 maxium_iterations = 10000
 
-# Define utility functions
 def normalize_to_probability(heuristic_map):
     min_val, max_val = np.min(heuristic_map), np.max(heuristic_map)
-    if min_val == max_val: # Avoid division by zero if map is flat
+    if min_val == max_val:
         linear_norm = np.ones_like(heuristic_map)
     else:
         linear_norm = (heuristic_map - min_val) / (max_val - min_val)
     
     total = np.sum(linear_norm)
-    if total == 0: # Avoid division by zero if all values are zero after normalization
+    if total == 0: 
         return np.ones_like(linear_norm) / linear_norm.size
         
     return linear_norm / total
@@ -118,11 +116,9 @@ class RRT:
             self.solution_length = self.tree[self.path[-1]][1]
 
     def solve(self, interactive=False):
-        # Only track iterations; drop all time measurement
         self.plan(interactive=interactive)
 
     def report(self):
-        # Only print iteration count
         print(f"Iterations: {self.iterations}")
 
     def graph(self, save=False, show=True):

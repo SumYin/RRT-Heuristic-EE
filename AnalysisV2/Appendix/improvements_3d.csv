@@ -1,0 +1,3 @@
+domain,iterations_pct_gain,n_rrt,n_wrrt,path_length_pct_change,scenario,tree_size_pct_gain
+3D,48.93118249644085,100,100,4.240019836350114,center_hole,50.91917591125199
+3D,41.786318172699396,100,100,1.8252616208323191,default_3d,45.040393818287846

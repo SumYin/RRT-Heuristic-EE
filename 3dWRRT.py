@@ -13,7 +13,7 @@ import matplotlib as mpl
 maxium_iterations = 5000  
 
 def normalize_to_probability(heuristic_map):
-    """Normalizes a 3D heuristic map to a probability distribution."""
+     
     min_val, max_val = np.min(heuristic_map), np.max(heuristic_map)
     if max_val == min_val:
         num_elements = heuristic_map.size
@@ -38,7 +38,7 @@ def normalize_to_probability(heuristic_map):
     return linear_norm / sum_norm
 
 def pick_weighted_random_cell(heuristic_map):
-    """Picks a random cell (i, j, k) from a 3D map based on weights."""
+     
     if np.any(heuristic_map < 0) or np.sum(heuristic_map) <= 0:
          print("Warning: Invalid heuristic map encountered. Falling back to uniform sampling.")
          idx = np.random.choice(heuristic_map.size)
@@ -57,23 +57,23 @@ def pick_weighted_random_cell(heuristic_map):
     return np.unravel_index(index, heuristic_map.shape)
 
 def euclidean_distance_heuristic_3d(x, y, z, goal):
-    """Calculates a heuristic value based on 3D Euclidean distance to the goal."""
+     
     max_dist = np.sqrt(3)
     distance = np.sqrt((x - goal[0])**2 + (y - goal[1])**2 + (z - goal[2])**2)
     return max_dist - distance
 
 def pick_pure_random_point_3d():
-    """Picks a random point within the unit cube [0,1]x[0,1]x[0,1]."""
+     
     return (np.random.uniform(0, 1), np.random.uniform(0, 1), np.random.uniform(0, 1))
 
 def is_point_inside_obstacle(point, obstacle):
-    """Checks if a 3D point is inside a cubic obstacle."""
+     
     x, y, z = point
     (x_min, y_min, z_min), (x_max, y_max, z_max) = obstacle
     return x_min <= x <= x_max and y_min <= y <= y_max and z_min <= z <= z_max
 
 def line_segment_intersects_cube(p1, p2, cube_min, cube_max):
-    """Checks if a line segment (p1, p2) intersects with a 3D cube (AABB)."""
+     
     p1 = np.array(p1)
     p2 = np.array(p2)
     cube_min = np.array(cube_min)
@@ -103,7 +103,7 @@ def line_segment_intersects_cube(p1, p2, cube_min, cube_max):
 
 
 def is_legal_move_3d(start, end, obstacles):
-    """Checks if a move from start to end point is legal in 3D space."""
+     
     x1, y1, z1 = start
     x2, y2, z2 = end
 
@@ -143,7 +143,7 @@ def draw_cube(ax, center, size, color='k', alpha=0.1):
 
 
 def draw_obstacles_3d(ax, obstacles, color='k', alpha=0.2):
-    """Draws all obstacles (cubes) on the 3D plot."""
+     
     for (x_min, y_min, z_min), (x_max, y_max, z_max) in obstacles:
         center = ((x_min+x_max)/2, (y_min+y_max)/2, (z_min+z_max)/2)
         verts = [
@@ -192,7 +192,7 @@ class RRT3D:
         return closest_node
 
     def steer(self, from_node, to_point):
-        """Steers from 'from_node' towards 'to_point' by 'distance_unit'."""
+         
         from_arr = np.array(from_node)
         to_arr = np.array(to_point)
         direction = to_arr - from_arr
@@ -209,7 +209,7 @@ class RRT3D:
         return tuple(new_point_arr)
 
     def plan(self, interactive=False):
-        """Plans the path using the RRT algorithm."""
+         
         ax = None
         if interactive:
             plt.ion()
@@ -270,7 +270,7 @@ class RRT3D:
 
 
     def reconstruct_path(self):
-        """Reconstructs the path from goal to start if a solution was found."""
+         
         path = []
         if self.solution_node:
             current = self.solution_node
@@ -282,14 +282,14 @@ class RRT3D:
         return path
 
     def solve(self, interactive=False):
-        """Runs the planning process and measures time."""
+         
         start_time = time.time()
         self.plan(interactive=interactive)
         end_time = time.time()
         self.execution_time = end_time - start_time
 
     def report(self):
-        """Prints a report of the RRT execution results."""
+         
         print(f"--- {self.__class__.__name__} Report ---")
         print(f"Execution Time: {self.execution_time:.6f} seconds")
         print(f"Iterations: {self.iterations}")
@@ -307,7 +307,7 @@ class RRT3D:
         return [self.execution_time, self.iterations, len(self.tree), self.solution_length]
 
     def graph(self, save=False, show=True):
-        """Visualizes the final RRT tree and path in 3D."""
+         
         fig = plt.figure(figsize=(12, 12))
         ax = fig.add_subplot(111, projection='3d')
         ax.set_xlim(0, 1)
@@ -373,7 +373,7 @@ class WRRT3D(RRT3D):
         print("Heuristic map generated.")
 
     def generate_heuristic_map(self):
-        """Generates a 3D heuristic map based on distance to the goal."""
+         
         res = self.map_resolution
         heuristicMap = np.zeros((res, res, res))
 
@@ -394,7 +394,7 @@ class WRRT3D(RRT3D):
         return heuristicMap
 
     def pick_random_point(self):
-        """Picks a random point biased by the heuristic map."""
+         
         try:
              i, j, k = pick_weighted_random_cell(self.heuristic_map) 
         except Exception as e:
@@ -413,7 +413,7 @@ class WRRT3D(RRT3D):
         return (x, y, z)
 
     def report_heuristic_map(self, save=True):
-        """Visualizes the 3D heuristic map."""
+         
         if self.heuristic_map is None:
             print("Heuristic map not generated.")
             return

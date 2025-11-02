@@ -1,0 +1,184 @@
+{
+  "per_domain_algorithm": [
+    {
+      "domain": "2D",
+      "algorithm": "RRT",
+      "n": 100000,
+      "iterations_mean": 833.7111,
+      "iterations_ci_low": 828.1592352302345,
+      "iterations_ci_high": 839.2629647697655,
+      "tree_size_mean": 421.93667,
+      "tree_size_ci_low": 419.4889210983735,
+      "tree_size_ci_high": 424.3844189016265,
+      "path_length_mean": 35.69511,
+      "path_length_ci_low": 35.563640493787496,
+      "path_length_ci_high": 35.826579506212504,
+      "iterations_median": 423.0,
+      "tree_size_median": 304.0,
+      "path_length_median": 32.0
+    },
+    {
+      "domain": "2D",
+      "algorithm": "WRRT",
+      "n": 100000,
+      "iterations_mean": 918.77523,
+      "iterations_ci_low": 909.844280514866,
+      "iterations_ci_high": 927.7061794851339,
+      "tree_size_mean": 262.86989,
+      "tree_size_ci_low": 261.236111960609,
+      "tree_size_ci_high": 264.503668039391,
+      "path_length_mean": 34.97888,
+      "path_length_ci_low": 34.84906778696893,
+      "path_length_ci_high": 35.10869221303106,
+      "iterations_median": 278.0,
+      "tree_size_median": 162.0,
+      "path_length_median": 30.0
+    },
+    {
+      "domain": "3D",
+      "algorithm": "RRT",
+      "n": 200,
+      "iterations_mean": 816.035,
+      "iterations_ci_low": 754.7581737097138,
+      "iterations_ci_high": 877.3118262902861,
+      "tree_size_mean": 670.105,
+      "tree_size_ci_low": 624.0644996650892,
+      "tree_size_ci_high": 716.1455003349108,
+      "path_length_mean": 40.71,
+      "path_length_ci_low": 40.188363517328995,
+      "path_length_ci_high": 41.23163648267101,
+      "iterations_median": 688.5,
+      "tree_size_median": 578.5,
+      "path_length_median": 40.0
+    },
+    {
+      "domain": "3D",
+      "algorithm": "WRRT",
+      "n": 200,
+      "iterations_mean": 441.67,
+      "iterations_ci_low": 405.4462279097792,
+      "iterations_ci_high": 477.8937720902208,
+      "tree_size_mean": 346.03,
+      "tree_size_ci_low": 322.75417544491347,
+      "tree_size_ci_high": 369.3058245550865,
+      "path_length_mean": 39.48,
+      "path_length_ci_low": 38.97103099189934,
+      "path_length_ci_high": 39.98896900810065,
+      "iterations_median": 359.0,
+      "tree_size_median": 300.0,
+      "path_length_median": 39.0
+    }
+  ],
+  "improvement_2d": [
+    {
+      "domain": "2D",
+      "scenario": "backtrack_required",
+      "iterations_pct_gain": -117.33810746703134,
+      "tree_size_pct_gain": -4.10066509776533,
+      "path_length_pct_change": 2.0892378277391463,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    },
+    {
+      "domain": "2D",
+      "scenario": "empty_space",
+      "iterations_pct_gain": 47.75624427574041,
+      "tree_size_pct_gain": 47.1312874433007,
+      "path_length_pct_change": 3.0536916779699723,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    },
+    {
+      "domain": "2D",
+      "scenario": "maze",
+      "iterations_pct_gain": 17.367225056126568,
+      "tree_size_pct_gain": 33.74455533418342,
+      "path_length_pct_change": 1.4265062803987731,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    },
+    {
+      "domain": "2D",
+      "scenario": "multiple_narrow_passage",
+      "iterations_pct_gain": 36.83204152634992,
+      "tree_size_pct_gain": 53.75518845276944,
+      "path_length_pct_change": 3.105712000995982,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    },
+    {
+      "domain": "2D",
+      "scenario": "multiple_paths",
+      "iterations_pct_gain": 28.83646427169256,
+      "tree_size_pct_gain": 46.50327040152982,
+      "path_length_pct_change": -0.09757318627537666,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    },
+    {
+      "domain": "2D",
+      "scenario": "multiple_shifted_narrow_passage",
+      "iterations_pct_gain": 31.41045271547015,
+      "tree_size_pct_gain": 51.435031369293355,
+      "path_length_pct_change": 1.9017205262014327,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    },
+    {
+      "domain": "2D",
+      "scenario": "narrow_passage",
+      "iterations_pct_gain": 36.78812287550753,
+      "tree_size_pct_gain": 52.978737916772936,
+      "path_length_pct_change": 4.214718903090614,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    },
+    {
+      "domain": "2D",
+      "scenario": "opposite_corners",
+      "iterations_pct_gain": 49.39952153665523,
+      "tree_size_pct_gain": 49.34819569267593,
+      "path_length_pct_change": 5.865403619241122,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    },
+    {
+      "domain": "2D",
+      "scenario": "single_wall",
+      "iterations_pct_gain": 5.166704264050218,
+      "tree_size_pct_gain": 31.301782109016422,
+      "path_length_pct_change": 0.19757748055783456,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    },
+    {
+      "domain": "2D",
+      "scenario": "very_close",
+      "iterations_pct_gain": 33.336025944807446,
+      "tree_size_pct_gain": 32.33532060003385,
+      "path_length_pct_change": -1.5043499275012036,
+      "n_rrt": 10000,
+      "n_wrrt": 10000
+    }
+  ],
+  "improvement_3d": [
+    {
+      "domain": "3D",
+      "scenario": "center_hole",
+      "iterations_pct_gain": 48.93118249644085,
+      "tree_size_pct_gain": 50.91917591125199,
+      "path_length_pct_change": 4.240019836350114,
+      "n_rrt": 100,
+      "n_wrrt": 100
+    },
+    {
+      "domain": "3D",
+      "scenario": "default_3d",
+      "iterations_pct_gain": 41.786318172699396,
+      "tree_size_pct_gain": 45.040393818287846,
+      "path_length_pct_change": 1.8252616208323191,
+      "n_rrt": 100,
+      "n_wrrt": 100
+    }
+  ]
+}

@@ -171,3 +171,5 @@ avg_*
 
 #ignore all files in the heuristic_maps directory and the folder itself
 /heuristic_maps
+# Ignore any file or directory whose name starts with an underscore
+_* 
