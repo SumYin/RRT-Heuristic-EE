@@ -72,26 +72,3 @@
 ![3D scatter tree vs iterations](AnalysisV2/Excess%20Plots/3D_scatter_tree_vs_iterations.png)
 
 </details>
-
-
-## Heuristic maps and example paths
-<details>
-<summary>Open heuristic maps and paths</summary>
-
-![WRRT heuristic map](graphs/WRRT_heuristic_map_16_(0,%200)_(0.2,%200.2).png)
-![WRRT heuristic map](graphs/WRRT_heuristic_map_16_(0,%200)_(0.95,%200.95).png)
-![WRRT heuristic map](graphs/WRRT_heuristic_map_16_(0,%201)_(0.95,%200.5).png)
-![WRRT heuristic map](graphs/WRRT_heuristic_map_16_(0.1,%200.5)_(0.9,%200.5).png)
-![WRRT heuristic map](graphs/WRRT_heuristic_map_16_(0.1,%200.7)_(0.9,%200.7).png)
-![WRRT heuristic map](graphs/WRRT_heuristic_map_16_(0.2,%200.4)_(0.95,%200.95).png)
-
-![RRT path](graphs/RRT_path_1752698112.png)
-![RRT path](graphs/RRT_path_1752698113.png)
-![RRT path](graphs/RRT_path_1752698116.png)
-
-![WRRT path](graphs/WRRT_path_1752698113.png)
-![WRRT path](graphs/WRRT_path_1752698114.png)
-![WRRT path](graphs/WRRT_path_1752698116.png)
-![WRRT path](graphs/WRRT_path_1752698118.png)
-
-</details>
