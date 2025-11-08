@@ -7,14 +7,6 @@ Below are the available rendered scenario figures.
 
 ### 3D scenarios
 
-- Default 3D (static)
-
-![scenario_default_3d_static](../graphs/scenario_default_3d_static.png)
-
-- Center hole (static)
-
-![scenario_center_hole_static](../graphs/scenario_center_hole_static.png)
-
 - Default 3D (rotating)
 
 ![scenario_default_3d_rotating](../AnimatedVisuals/scenario_default_3d_rotating.gif)
