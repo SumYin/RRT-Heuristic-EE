@@ -93,7 +93,6 @@ class RRT:
         while np.linalg.norm(np.array(self.path[-1]) - np.array(self.goal)) > self.goal_range and self.iterations < maxium_iterations:
             self.iterations += 1
             new_point = self.pick_random_point()
-            # Find the closest node using KDTree or brute force
             closest_node = self.find_closest_node(new_point)
             direction = np.array(new_point) - np.array(closest_node)
             direction = direction / np.linalg.norm(direction)
@@ -109,7 +108,6 @@ class RRT:
             plt.close()  
 
         if self.iterations >= maxium_iterations:
-            print("Maximum iterations reached without finding a path.")
             self.solution_length = -1
 
         else:    
@@ -123,11 +121,9 @@ class RRT:
 
     def graph(self, save=False, show=True):
 
-        # Ensure the 'graphs' directory exists before saving
         if save:
             os.makedirs('graphs', exist_ok=True)
 
-        # Create a directed graph using networkx
         G = nx.DiGraph()
         for node, (parent, _) in self.tree.items():
             if parent is not None:
@@ -154,7 +150,6 @@ class RRT:
         for (x_min, y_min), (x_max, y_max) in self.obstacles:
             plt.fill([x_min, x_max, x_max, x_min], [y_min, y_min, y_max, y_max], 'k', alpha=0.5)
 
-        # Draw nodes and edges (simple straight lines for all edges)
         edges = list(G.edges())
         for i, (start, end) in enumerate(edges):
             plt.plot(
@@ -210,10 +205,10 @@ class WRRT(RRT):
         super().__init__(start, goal, goal_range, distance_unit, obstacles)
         self.map_resolution = map_resolution
         self.heuristic_map = self.load_or_generate_heuristic_map(scenario_name)
-        # Pre-calculate the sampling probabilities once.
+
         normalized_heuristic = normalize_to_probability(self.heuristic_map)
+
         self.flat_map_size = normalized_heuristic.size
-        # Set up alias method for O(1) sampling
         self.alias_table, self.prob_table = self.setup_alias_method(normalized_heuristic.flatten())
 
     def heuristic_map_filename(self, scenario_name):
@@ -306,11 +301,10 @@ class WRRT(RRT):
         super().report()
 
     def report_heuristic_map(self):
-        # Use a deterministic filename for the heuristic map image
         img_filename = f'graphs/WRRT_heuristic_map_{self.map_resolution}_{self.start}_{self.goal}.png'
         os.makedirs(os.path.dirname(img_filename), exist_ok=True)
         if os.path.exists(img_filename):
-            return  # Don't save again if it already exists
+            return 
 
         plt.figure(figsize=(16, 16))
         plt.imshow(self.heuristic_map, cmap='magma', interpolation='nearest', extent=[0, 1, 0, 1], origin='lower')
@@ -355,7 +349,6 @@ if __name__ == "__main__":
     output_filename = args.output or f"results_{global_timestamp}.json"
     results = []
 
-    # Try to load existing results if file exists (for crash recovery)
     if os.path.exists(output_filename):
         with open(output_filename, 'r') as infile:
             try:
@@ -408,6 +401,5 @@ if __name__ == "__main__":
             }
             results.append(wrrt_data)
 
-            # Save results after each run
             with open(output_filename, 'w') as outfile:
                 json.dump(results, outfile, indent=2)

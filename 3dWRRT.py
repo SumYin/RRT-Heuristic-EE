@@ -50,8 +50,6 @@ def pick_weighted_random_cell(heuristic_map):
     try:
         index = np.random.choice(len(flat_map), p=flat_map)
     except ValueError as e:
-        print(f"Error in np.random.choice: {e}")
-        print(f"Sum of probabilities: {np.sum(flat_map)}")
         index = np.random.choice(len(flat_map))
 
     return np.unravel_index(index, heuristic_map.shape)
@@ -254,7 +252,6 @@ class RRT3D:
                     self.solution_node = new_point
                     self.solution_length = self.tree[new_point][1]
                     goal_reached = True
-                    print(f"Goal reached after {self.iterations} iterations.")
                     break 
 
         if interactive:
@@ -265,7 +262,6 @@ class RRT3D:
             plt.close(fig)
 
         if not goal_reached:
-            print(f"Maximum iterations ({maxium_iterations}) reached without finding a path.")
             self.solution_length = -1 
 
 
@@ -289,7 +285,6 @@ class RRT3D:
         self.execution_time = end_time - start_time
 
     def report(self):
-         
         print(f"--- {self.__class__.__name__} Report ---")
         print(f"Execution Time: {self.execution_time:.6f} seconds")
         print(f"Iterations: {self.iterations}")
@@ -368,9 +363,7 @@ class WRRT3D(RRT3D):
     def __init__(self, start, goal, goal_range, distance_unit, obstacles, map_resolution):
         super().__init__(start, goal, goal_range, distance_unit, obstacles)
         self.map_resolution = map_resolution
-        print("Generating heuristic map...")
         self.heuristic_map = self.generate_heuristic_map()
-        print("Heuristic map generated.")
 
     def generate_heuristic_map(self):
          
@@ -415,7 +408,6 @@ class WRRT3D(RRT3D):
     def report_heuristic_map(self, save=True):
          
         if self.heuristic_map is None:
-            print("Heuristic map not generated.")
             return
 
         res = self.map_resolution
@@ -467,7 +459,6 @@ if __name__ == "__main__":
         with open('scenarios_3d.json') as f:
             scenarios = json.load(f)
     except FileNotFoundError:
-        print("data.json file not found. Please ensure the file exists in the current directory.")
         exit(1)
 
     import os
@@ -477,7 +468,6 @@ if __name__ == "__main__":
     num_runs = 1 
 
     for scenario_name, scenario in scenarios.items():
-        print(f"\n===== Running Scenario: {scenario_name} =====")
         start = tuple(scenario['start'])
         goal = tuple(scenario['goal'])
         map_resolution = scenario['mapResolution']
@@ -486,19 +476,16 @@ if __name__ == "__main__":
         obstacles = [(tuple(obs[0]), tuple(obs[1])) for obs in scenario['obstacles']]
 
         for run in range(num_runs):
-            print(f"\n--- Run {run + 1}/{num_runs} for {scenario_name} ---")
 
             rrt = RRT3D(start, goal, goal_range, distance_unit, obstacles)
             wrrt = WRRT3D(start, goal, goal_range, distance_unit, obstacles, map_resolution)
 
             # Run RRT3D
-            print(f"\nRunning RRT3D...")
             rrt.solve(interactive=(run==0 and False)) 
             rrt.report()
             rrt.graph(save=True, show=True)
 
             # Run WRRT3D
-            print(f"\nRunning WRRT3D...")
             wrrt.solve(interactive=(run==0 and False))
             wrrt.report()
             wrrt.graph(save=True, show=True) 
@@ -506,4 +493,3 @@ if __name__ == "__main__":
                 wrrt.report_heuristic_map(save=True)
 
 
-    print("\n===== All Scenarios Completed =====")
