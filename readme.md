@@ -56,7 +56,7 @@
 | ![3D iterations improvement](AnalysisV2/Graphics3d/3D_iterations_improvement_heatmap.png) | ![3D tree size improvement](AnalysisV2/Graphics3d/3D_tree_size_improvement_heatmap.png) | ![3D path length improvement](AnalysisV2/Graphics3d/3D_path_length_improvement_heatmap.png) |
 
 <details>
-<summary>Open extra 3D figures (boxplots, CDFs, scatter)</summary>
+<summary>Open extra 3D figures (boxplots, CDFs, scatter) - NOTE: Includes Test and possibly depricated datapoints</summary>
 
 ![3D boxplot iterations](AnalysisV2/Excess%20Plots/3D_boxplot_iterations.png)
 ![3D boxplot path length](AnalysisV2/Excess%20Plots/3D_boxplot_path_length.png)
