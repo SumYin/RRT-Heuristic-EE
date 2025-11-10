@@ -17,7 +17,7 @@
 ### More 2D plots
 
 <details>
-<summary>Open extra 2D figures (boxplots, CDFs, scatter)</summary>
+<summary>Open extra 2D figures (boxplots, CDFs, scatter) - NOTE: Includes Test and possibly depricated datapoints</summary>
 
 ![2D boxplot iterations](AnalysisV2/Excess%20Plots/2D_boxplot_iterations.png)
 ![2D boxplot path length](AnalysisV2/Excess%20Plots/2D_boxplot_path_length.png)
